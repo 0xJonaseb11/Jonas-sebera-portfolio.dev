@@ -2,9 +2,6 @@ const selectOptions = [
 	'Web Application',
 	'Mobile Application',
 	'UI/UX Design',
-	'Web3.0 development',
-	'Smart contract development',
-	'Smart contract audit, Tests and deployment'
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

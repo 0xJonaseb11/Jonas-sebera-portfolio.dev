@@ -17,7 +17,6 @@ const ProjectRelatedProjects = () => {
 			<div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
 				{data.RelatedProject.Projects.map((project) => {
 					return (
-						// eslint-disable-next-line react/jsx-key
 						<Link to={`/projects/single-project/${project.id}`} className='flex flex-col gap-[1rem]'>
 							{/* <img
 								src={project.img}

@@ -76,7 +76,6 @@ const ProjectInfo = () => {
 						{data.ProjectInfo.SocialSharing.map(
 							(social) => {
 								return (
-									// eslint-disable-next-line react/jsx-key
 									<div>
 										{social.shareButton }
 									</div>
