@@ -11,17 +11,17 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/Peace-Ishimwe',
+		url: 'https://github.com/Jonas-sebera',
 	},
 	{
 		id: 3,
 		icon: <FiTwitter />,
-		url: 'https://twitter.com/Peace_Ishimwem',
+		url: 'https://twitter.com/Jonas-sebera',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/peace-ishimwe/',
+		url: 'https://www.linkedin.com/in/sebera-jonas/',
 	},
 	{
 		id: 5,
@@ -31,7 +31,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiInstagram />,
-		url: 'https://www.instagram.com/peace_ishimwem/',
+		url: 'https://www.instagram.com/Sebera-Jonas/',
 	}
 ];
 
