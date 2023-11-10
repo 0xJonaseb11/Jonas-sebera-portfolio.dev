@@ -26,12 +26,12 @@ const socialLinks = [
 	{
 		id: 5,
 		icon: <FiFacebook />,
-		url: 'https://web.facebook.com/peace.ishimwem/',
+		url: 'https://web.facebook.com/Sebera Jonas/',
 	},
 	{
 		id: 1,
 		icon: <FiInstagram />,
-		url: 'https://www.instagram.com/Sebera-Jonas/',
+		url: 'https://www.instagram.com/sebe_j_az99/',
 	}
 ];
 
