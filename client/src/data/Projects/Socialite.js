@@ -94,70 +94,70 @@ export const Socialite = 	{
               name: 'Twitter',
               shareButton: (
                 <TwitterShareButton
-                  url='https://peace-ishimwe.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  url='https://jonas-sebera.vercel.app/projects/single-project/0'
+                  quote={"Jonas Sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <TwitterIcon size={40} round={true} />
                 </TwitterShareButton>
               ),
-              url: 'https://peace-ishimwe.vercel.app/projects/single-project/0',
+              url: 'https://jonas-sebera.vercel.app/projects/single-project/0',
             },
             {
               id: 2,
               name: 'Mail',
               shareButton: (
                 <MailruShareButton
-                  url='https://peace-ishimwe.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  url='https://jonas-sebera.vercel.app/projects/single-project/0'
+                  quote={"Jonas Sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <MailruIcon size={40} round={true} />
                 </MailruShareButton>
               ),
-              url: 'https://peace-ishimwe.vercel.app/projects/single-project/0',
+              url: 'https://jonas-sebera.vercel.app/projects/single-project/0',
             },
             {
               id: 3,
               name: 'Facebook',
               shareButton: (
                 <FacebookShareButton
-                  url='https://peace-ishimwe.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  url='https://jonas-sebera.vercel.app/projects/single-project/0'
+                  quote={"Jonas Sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <FacebookIcon size={40} round={true} />
                 </FacebookShareButton>
               ),
-              url: 'https://peace-ishimwe.vercel.app/projects/single-project/0',
+              url: 'https://jonas-sebera.vercel.app/projects/single-project/0',
             },
             {
               id: 4,
               name: 'LinkedIn',
               shareButton: (
                 <LinkedinShareButton
-                  url='https://peace-ishimwe.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  url='https://jonas-sebera.vercel.app/projects/single-project/0'
+                  quote={"Jonas Sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <LinkedinIcon size={40} round={true} />
                 </LinkedinShareButton>
               ),
-              url: 'https://peace-ishimwe.vercel.app/projects/single-project/0',
+              url: 'https://jonas-sebera.vercel.app/projects/single-project/0',
             },
             {
               id: 5,
               name: 'Whatsapp',
               shareButton: (
                 <WhatsappShareButton
-                  url='https://peace-ishimwe.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  url='https://jonas-sebera.vercel.app/projects/single-project/0'
+                  quote={"Jonas Sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <WhatsappIcon size={40} round={true} />
                 </WhatsappShareButton>
               ),
-              url: 'https://peace-ishimwe.vercel.app/projects/single-project/0',
+              url: 'https://jonas-sebera.vercel.app/projects/single-project/0',
             },
           ]
     },
