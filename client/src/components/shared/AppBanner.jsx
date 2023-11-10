@@ -21,7 +21,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left text-ternary-dark dark:text-primary-light whitespace-nowrap"
 				>
-					Hi, I am Peace Ishimwe
+					Hi, I am Jonas Sebera
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -46,8 +46,8 @@ const AppBanner = () => {
 					className="flex justify-center lg:block"
 				>
 					<a
-						download="Peace-Ishimwe-Resume.pdf"
-						href="/files/Peace-Ishimwe-Resume.pdf"
+						download="Jonas-Sebera-Resume.pdf"
+						href="/files/Jonas-Sebera-Resume.pdf"
 						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500"
 						aria-label="Download Resume"
 					>
