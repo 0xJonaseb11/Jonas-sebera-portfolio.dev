@@ -24,7 +24,7 @@ const ContactForm = () => {
 			.then((result) => {
 				console.log(result.text);
 				setIsLoading(false);
-				onSuccess("Message sent to Peace Successfully");
+				onSuccess("Message sent to Jonas Successfully");
 				e.target.reset()
 			}, (error) => {
 				console.log(error.text);
