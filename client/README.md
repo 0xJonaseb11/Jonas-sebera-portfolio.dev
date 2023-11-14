@@ -13,5 +13,11 @@ Currently, two official plugins are available:
 # About
 This is the vey portflio for my skill show case. It marks my web development journey so far and marks my progress at the moment
 
+### Tools used
+    react
+    Threejs
+    web3js && ethersjs
+    
+
 
 ### @Jonas-sebera
