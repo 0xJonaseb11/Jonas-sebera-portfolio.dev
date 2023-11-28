@@ -6,18 +6,19 @@ import IconWeb from '../../images/Doings/icon-dev.svg';
 import IconApp from '../../images/Doings/icon-app.svg';
 import IconDesign from '../../images/Doings/icon-design.svg';
 import IconEmbeded from '../../images/Doings/icon-photo.svg';
+import Web3Icon from "../../images/Doings/Web3Icon.png";
 
 // Define an array of services
 const services = [
   {
     icon: IconWeb,
-    title: 'Web development',
+    title: 'Web2.0 development',
     description: 'High-quality development of sites at the professional level.',
   },
   {
     icon: IconApp,
-    title: 'Mobile apps',
-    description: 'Professional development of applications for iOS and Android.',
+    title: 'Web3.0 development',
+    description: 'Professional development of blockchain and smart contract-based applications.',
   },
   {
     icon: IconDesign,
@@ -28,6 +29,11 @@ const services = [
     icon: IconEmbeded,
     title: 'Embeded systems',
     description: 'Unlock endless tech opportunities by learning embedded systems design and development.',
+  },
+  {
+    icon: Web3Icon,
+    title: 'Solidity smart contract development.',
+    description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
   },
 ];
 
