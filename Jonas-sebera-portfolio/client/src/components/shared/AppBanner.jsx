@@ -1,5 +1,6 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
+import { FiArrowRight } from 'react-icons/fi';
 
 const AppBanner = () => {
 
@@ -21,7 +22,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left text-ternary-dark dark:text-primary-light whitespace-nowrap"
 				>
-					Hi, I am Jonas Sebera
+					Hi, I am JONAS SEBERA
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -33,7 +34,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center lg:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Highly Skilled And Motivated Fullstack Developer
+					A Highly Skilled And Motivated Web3.0 Fullstack Engineer
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -46,16 +47,30 @@ const AppBanner = () => {
 					className="flex justify-center lg:block"
 				>
 					<a
-						download="-Resume.pdf"
+						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
 						<span className="text-sm sm:text-lg font-general-medium duration-100">
 							Download CV
 						</span>
+
+						
 					</a>
+					<a
+					view="Jonas-Sebera-Resume"
+					href='https://resume.io/r/Cg5tKp0Qh'
+					className='font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
+					aria-label='View Resume here'
+				>
+					<FiArrowRight className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
+						<span className="text-sm sm:text-lg font-general-medium duration-100">
+							View Resume here
+						</span>
+
+				</a>
 				</motion.div>
 			</div>
 			<motion.div

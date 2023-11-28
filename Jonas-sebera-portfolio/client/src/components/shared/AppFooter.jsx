@@ -23,7 +23,7 @@ const socialLinks = [
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/Jonas-sebera/',
+		url: 'https://www.linkedin.com/in/sebera-jonas/',
 	},
 	{
 		id: 5,
