@@ -45,7 +45,7 @@ export const ClientCoach = 	{
             {
                 id: 3,
                 title: 'Phone',
-                details: 'tel:+250 793 092 863',
+                details: 'tel:+250 798 223 860',
             },
         ],
         ObjectivesHeading: 'Objective',

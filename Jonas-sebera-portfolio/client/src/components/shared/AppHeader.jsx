@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
 import logoLight from '../../images/logo-light.svg';
-import logoDark from '../../images/logo-dark.svg';
+import logoDark from '../../images/logo2.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 

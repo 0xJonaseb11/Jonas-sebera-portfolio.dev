@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Gikondo, Kicukiro, Rwanda',
+		name: 'Nyamata, Bugesera, Rwanda',
 		icon: <FiMapPin />,
 	},
 	{
@@ -13,7 +13,7 @@ const contacts = [
 	},
 	{
 		id: 3,
-		name: '+250 793 092 863',
+		name: '+250 798 223 860',
 		icon: <FiPhone />,
 	},
 ];

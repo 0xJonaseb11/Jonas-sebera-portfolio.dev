@@ -23,10 +23,10 @@ const AboutCounter = () => {
 	}, []);
 
 	
-	useCountUp({ ref: 'experienceCounter', end: 3, duration: 3 });
-	useCountUp({ ref: 'githubProjectsCounter', end: 28, duration: 3 });
+	useCountUp({ ref: 'experienceCounter', end: 6, duration: 6 });
+	useCountUp({ ref: 'githubProjectsCounter', end: 26, duration: 3 });
 	useCountUp({ ref: 'feedbackCounter', end: 92, duration: 3 });
-	useCountUp({ ref: 'projectsCounter', end: 87, duration: 3 });
+	useCountUp({ ref: 'projectsCounter', end: 81, duration: 3 });
 
 	return (
 		<div className="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
