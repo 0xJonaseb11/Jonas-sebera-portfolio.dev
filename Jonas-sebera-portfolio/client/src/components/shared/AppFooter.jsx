@@ -18,18 +18,18 @@ const socialLinks = [
 	// {
 	// 	id: 3,
 	// 	icon: <FiTwitter />,
-	// 	url: 'https://twitter.com/Peace_Ishimwem',
+	// 	url: 'https://twitter.com/Jonas_sebera,
 	// },
 	{
 		id: 4,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/Jonas-sebera/',
 	},
-	// {
-	// 	id: 5,
-	// 	icon: <FiFacebook />,
-	// 	url: 'https://web.facebook.com/peace.ishimwem/',
-	// },
+	{
+		id: 5,
+		icon: <FiFacebook />,
+		url: 'https://www.facebook.com/jonaswalker.deborde/',
+	},
 	{
 		id: 1,
 		icon: <FiInstagram />,

@@ -89,7 +89,7 @@ export const BigincEcommerce = 	{
               shareButton: (
                 <TwitterShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/2'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <TwitterIcon size={40} round={true} />
@@ -103,7 +103,7 @@ export const BigincEcommerce = 	{
               shareButton: (
                 <MailruShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/2'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <MailruIcon size={40} round={true} />
@@ -117,7 +117,7 @@ export const BigincEcommerce = 	{
               shareButton: (
                 <FacebookShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/2'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <FacebookIcon size={40} round={true} />
@@ -131,7 +131,7 @@ export const BigincEcommerce = 	{
               shareButton: (
                 <LinkedinShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/2'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <LinkedinIcon size={40} round={true} />
@@ -145,7 +145,7 @@ export const BigincEcommerce = 	{
               shareButton: (
                 <WhatsappShareButton
                   url='https://Jonas-sebera.vercel.app/projects/single-project/2'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <WhatsappIcon size={40} round={true} />

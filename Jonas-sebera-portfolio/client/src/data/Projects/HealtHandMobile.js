@@ -91,7 +91,7 @@ export const HealthHand = {
                 shareButton: (
                     <TwitterShareButton
                         url='https://jonas-sebera.vercel.app/projects/single-project/4'
-                        quote={"Peace Ishimwe's portfolio"}
+                        quote={"Jonas Sebera's portfolio"}
                         hashtag={'#portfolio...'}
                     >
                         <TwitterIcon size={40} round={true} />
@@ -105,7 +105,7 @@ export const HealthHand = {
                 shareButton: (
                     <MailruShareButton
                         url='https://jonas-sebera.vercel.app/projects/single-project/4'
-                        quote={"Peace Ishimwe's portfolio"}
+                        quote={"Jonas Sebera's portfolio"}
                         hashtag={'#portfolio...'}
                     >
                         <MailruIcon size={40} round={true} />
@@ -119,7 +119,7 @@ export const HealthHand = {
                 shareButton: (
                     <FacebookShareButton
                         url='https://jonas-sebera.vercel.app/projects/single-project/4'
-                        quote={"Peace Ishimwe's portfolio"}
+                        quote={"Jonas Sebera's portfolio"}
                         hashtag={'#portfolio...'}
                     >
                         <FacebookIcon size={40} round={true} />
@@ -133,7 +133,7 @@ export const HealthHand = {
                 shareButton: (
                     <LinkedinShareButton
                         url='https://jonas-sebera.vercel.app/projects/single-project/4'
-                        quote={"Peace Ishimwe's portfolio"}
+                        quote={"Jonas Sebera's portfolio"}
                         hashtag={'#portfolio...'}
                     >
                         <LinkedinIcon size={40} round={true} />
@@ -147,7 +147,7 @@ export const HealthHand = {
                 shareButton: (
                     <WhatsappShareButton
                         url='https://jonas-sebera.vercel.app/projects/single-project/4'
-                        quote={"Peace Ishimwe's portfolio"}
+                        quote={"Jonas Sebera's portfolio"}
                         hashtag={'#portfolio...'}
                     >
                         <WhatsappIcon size={40} round={true} />

@@ -9,7 +9,7 @@ const AboutCounter = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await fetch("https://api.github.com/users/peace-ishimwe/repos");
+				const response = await fetch("https://api.github.com/users/Jonas-sebera/repos");
 				if (!response.ok) {
 					throw new Error("Network response was not ok");
 				}

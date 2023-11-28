@@ -95,7 +95,7 @@ export const Socialite = 	{
               shareButton: (
                 <TwitterShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <TwitterIcon size={40} round={true} />
@@ -109,7 +109,7 @@ export const Socialite = 	{
               shareButton: (
                 <MailruShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"'s portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <MailruIcon size={40} round={true} />
@@ -123,7 +123,7 @@ export const Socialite = 	{
               shareButton: (
                 <FacebookShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <FacebookIcon size={40} round={true} />
@@ -137,7 +137,7 @@ export const Socialite = 	{
               shareButton: (
                 <LinkedinShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <LinkedinIcon size={40} round={true} />
@@ -151,7 +151,7 @@ export const Socialite = 	{
               shareButton: (
                 <WhatsappShareButton
                   url='https://jonas-sebera.vercel.app/projects/single-project/0'
-                  quote={"Peace Ishimwe's portfolio"}
+                  quote={"Jonas sebera's portfolio"}
                   hashtag={'#portfolio...'}
                 >
                   <WhatsappIcon size={40} round={true} />
