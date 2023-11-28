@@ -43,7 +43,7 @@ const Resume = () => {
                                 <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>2022 — Present</span>
 
                                 <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium">
-                                    At Rwanda Coding Academy, I am currently studying software engineering and embedded systems. The academy provides a comprehensive curriculum and hands-on training to develop my skills in coding and programming. I am learning various programming languages, software development methodologies, and techniques to build robust and efficient software solutions.
+                                    At Rwanda Coding Academy, I am currently studying software engineering and embedded systems Engineer. The academy provides a comprehensive curriculum and hands-on training to develop my skills in coding and programming. I am learning various programming languages, software development methodologies, and techniques to build robust and efficient software solutions.
                                 </p>
 
                             </li>
@@ -57,12 +57,12 @@ const Resume = () => {
                         <TimelineContent>
                             <li className="timeline-item flex flex-col gap-1">
 
-                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Ecole Des Sciences Byimana</h4>
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">New Life Christian Academy</h4>
 
                                 <span className='text-lg font-general-medium text-blue-400 font-semibold'>2019 — 2022</span>
 
                                 <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
-                                    During my time at Ecole Des Sciences Byimana, I completed my ordinary level education with a focus on sciences. The school offered a well-rounded curriculum that included subjects such as mathematics, physics, chemistry, and biology. I gained a solid foundation in scientific principles and problem-solving skills during this period.
+                                    During my time at New Life Christian Academy, I completed my ordinary level education with a focus on sciences and Great attachment to God. The school offered a well-rounded curriculum that included subjects such as mathematics, physics, chemistry, and biology. I gained a solid foundation in scientific principles and problem-solving skills during this period.
                                 </p>
 
                             </li>
@@ -75,12 +75,12 @@ const Resume = () => {
                         <TimelineContent>
                             <li className="timeline-item flex flex-col gap-1">
 
-                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Ecole Le Petit Prince</h4>
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Kibenga Primary School</h4>
 
                                 <span className='text-lg font-general-medium text-blue-400 font-semibold'>2013 — 2018</span>
 
                                 <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
-                                    At Ecole Le Petit Prince, I completed my primary education. This school provided a nurturing environment for learning and personal growth. Throughout my time there, I gained a solid understanding of various subjects, including languages, mathematics, social sciences, and natural sciences. It was a foundational period in my educational journey.
+                               At Kibenga Primary School, I gained an outstanding Foundation of my Whole life carrier since it is where I got all morals and values that I apply during my Working Environment.
                                 </p>
 
                             </li>
@@ -118,7 +118,7 @@ const Resume = () => {
 
                                 <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
                                     At Italos, I worked as a frontend developer. My role involvedcreating and implementing user interface components and designing engaging and user-friendly web interfaces. I utilized various frontend technologies such as React and Bootstrap to build interactive and responsive websites. I collaborated with the design and development teams to ensure a seamless user experience.
-                                </p>
+                     F           </p>
 
                             </li>
                         </TimelineContent>
