@@ -57,11 +57,11 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name="email"
+										name=""
 										type="text"
 										required=""
-										placeholder="Email"
-										aria-label="Email"
+										placeholder=""
+										aria-label=""
 									/>
 								</div>
 								<div className="mt-6">
