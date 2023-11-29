@@ -1,3 +1,4 @@
+import Discord from "../../images/discord.png";
 import {
 	FiGithub,
 	// eslint-disable-next-line no-unused-vars
@@ -5,33 +6,34 @@ import {
 	FiLinkedin,
 	// eslint-disable-next-line no-unused-vars
 	FiFacebook,
-	FiInstagram
+	FiInstagram,
+	
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
-		id: 2,
+		id: 1,
 		icon: <FiGithub />,
 		url: 'https://github.com/Jonas-sebera',
 	},
-	// {
-	// 	id: 3,
-	// 	icon: <FiTwitter />,
-	// 	url: 'https://twitter.com/Jonas_sebera,
-	// },
 	{
-		id: 4,
+		id: 2,
+		icon: Discord,
+		url: 'https://discord.com/users/1065213095431131218',
+	},
+	{
+		id: 3,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/sebera-jonas/',
 	},
 	{
-		id: 5,
+		id: 4,
 		icon: <FiFacebook />,
 		url: 'https://www.facebook.com/jonaswalker.deborde/',
 	},
 	{
-		id: 1,
+		id: 5,
 		icon: <FiInstagram />,
 		url: 'https://www.instagram.com/sebe_j_az99/',
 	}

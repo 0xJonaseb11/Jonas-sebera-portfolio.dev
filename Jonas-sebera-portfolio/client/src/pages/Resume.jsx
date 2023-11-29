@@ -178,6 +178,9 @@ const Resume = () => {
                                 </p>
 
                             </li>
+                            
+                            
+                            
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
