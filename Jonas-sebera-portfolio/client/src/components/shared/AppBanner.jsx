@@ -59,7 +59,7 @@ const AppBanner = () => {
 
 						
 					</a>
-					<p className='mt-20 ml-2 ont-general-medium  text-lg md:text-xl lg:text-2xl xl:text-3xl text-center lg:text-left leading-normal text-gray-500 dark:text-gray-200' >OR</p>
+					<p className='mt-20 ml-2 ont-general-medium  text-lg md:text-xl lg:text-2xl xl:text-3xl text-center lg:text-left leading-normal text-gray-500 dark:text-gray-200' >Or Just</p>
 					
 					<a
 					view="Jonas-Sebera-Resume"

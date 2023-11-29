@@ -1,4 +1,9 @@
 import Discord from "../../images/discord.png";
+import Dev from "../../images/Dev.png";
+import Medium from "../../images/Medium.png";
+import Quora from "../../images/Quora.png";
+
+
 import {
 	FiGithub,
 	// eslint-disable-next-line no-unused-vars
@@ -19,7 +24,7 @@ const socialLinks = [
 	},
 	{
 		id: 2,
-		icon: Discord,
+		icon: <img src={Discord} alt="Discord Logo" width={45}/>,
 		url: 'https://discord.com/users/1065213095431131218',
 	},
 	{
@@ -35,9 +40,27 @@ const socialLinks = [
 	{
 		id: 5,
 		icon: <FiInstagram />,
-		url: 'https://www.instagram.com/sebe_j_az99/',
+		url: 'https://www.instagram.com/sebe_j_az99',
+	},
+	
+	{
+		id: 6,
+		icon: <img src={Medium} alt="Medium Logo" width={50}/>,
+		url: 'https://medium.com/@sebejaz99',
+	},
+	{
+		id: 7,
+		icon: <img src={Quora} alt="Quora logo" width={70}/>,
+		url: 'https://www.quora.com/profile/Jaz-1378',
+	},
+	{
+		id: 8,
+		icon: <img src={Dev} alt="Dev Community logo" width={50}/>,
+		url: 'https://dev.to/jonassebera',
 	}
+	
 ];
+
 
 const AppFooter = () => {
 	return (
