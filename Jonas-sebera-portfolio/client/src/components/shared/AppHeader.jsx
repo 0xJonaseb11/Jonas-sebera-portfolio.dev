@@ -48,17 +48,15 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme === 'dark' ? (
-								<img
+								<><img
 									src={logoDark}
 									className="w-36 rounded-full"
-									alt="Dark Logo"
-								/>
+									alt="Dark Logo" /><p className=''>JONAS</p></>
 							) : (
-								<img
-									src={logoLight}
-									className="w-36 rounded-full"
-									alt="Dark Logo"
-								/>
+								<><img
+										src={logoLight}
+										className="w-36 rounded-full"
+										alt="Dark Logo" /><p></p></>
 							)}
 						</Link>
 					</div>

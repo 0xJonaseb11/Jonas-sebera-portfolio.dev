@@ -42,7 +42,7 @@ const services = [
   {
     icon: blockchain,
     title: 'Blockchain and Dapps development.',
-    description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
+    description: 'Unlock endless tech opportunities With super developed and tested dapps and blockchain solutions.',
   },
 ];
 

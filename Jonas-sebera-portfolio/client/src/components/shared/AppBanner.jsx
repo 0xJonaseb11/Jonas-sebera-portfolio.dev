@@ -1,6 +1,7 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
+// import blockchain_technology from "../../images/blockchain-technology.mp4";
 
 const AppBanner = () => {
 
@@ -82,7 +83,7 @@ const AppBanner = () => {
 				transition={{ ease: 'easeInOut', duration: 2, delay: 1 }}
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
-				<iframe title='myImage' className="w-full h-[85vh]" src="https://lottie.host/?file=52c13359-7f32-481a-957e-718c4bc908db/QseUXflKzQ.json"></iframe>
+				<video title='myImage' className="w-full h-[85vh]" src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/blockchain-technology-4423752-3675973.mp4"  autoPlay loop muted></video>
 			</motion.div>
 		</motion.section>
 	);
