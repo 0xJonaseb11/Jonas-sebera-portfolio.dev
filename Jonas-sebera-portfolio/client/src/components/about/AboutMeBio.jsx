@@ -2,7 +2,7 @@
 import React, { useState, useEffect , useContext } from 'react';
 import Skeleton from '@mui/material/Skeleton';
 import AboutMeContext from '../../context/AboutMeContext';
-// import profileImage from '../../images/ProfileMe/Profile7.jpg';
+//import profileImage from '../../images/ProfileMe/Profile7.jpg';
 
 const AboutMeBio = () => {
     const { aboutMe } = useContext(AboutMeContext);

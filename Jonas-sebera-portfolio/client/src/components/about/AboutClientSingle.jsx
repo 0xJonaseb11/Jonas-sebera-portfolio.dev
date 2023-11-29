@@ -2,6 +2,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const AboutClientSingle = ({ title, image }) => {
+	<h>ABOUT ME</h>
 	return (
 		<>
 			{/* <img

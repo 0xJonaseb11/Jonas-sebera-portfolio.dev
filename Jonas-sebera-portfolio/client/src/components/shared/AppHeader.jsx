@@ -40,7 +40,7 @@ const AppHeader = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className="sm:container sm:mx-auto"
+			className="sm:container sm:mx-auto shadow-lg"
 		>
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
 				{/* Header menu links and small screen hamburger menu */}
@@ -50,13 +50,13 @@ const AppHeader = () => {
 							{activeTheme === 'dark' ? (
 								<><img
 									src={logoDark}
-									className="w-36 rounded-full"
+									className="w-10 rounded-full md:w-24"
 									alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-4'>JONAS SEBERA</p></>
 							) : (
 								<><img
 										src={logoLight}
-										className="w-36 rounded-full"
-										alt="Dark Logo" /><p></p></>
+										className="w-10 rounded-full md:w-20"
+										alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-4'>JONAS SEBERA</p></>
 							)}
 						</Link>
 					</div>
@@ -148,28 +148,28 @@ const AppHeader = () => {
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-primary-dark text-[#999] dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light hover:text-xl hover:text-[#9999] sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-[#999] text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/resume"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-[#999] text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="Resume"
 					>
 						Resume
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-[#999] text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						Contact

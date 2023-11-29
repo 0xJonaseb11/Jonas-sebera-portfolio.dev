@@ -4,7 +4,7 @@ export const aboutMeData = [
         bio: "Welcome to my world of innovative and transformative web3.0 development! I'm SEBERA JONAS, a seasoned full-stack web3.0 developer with a passion for bringing blockchain solutions to life. With a rich background in frontend, backend, and blockchain development, I specialize in crafting cutting-edge digital experiences that seamlessly integrate with decentralized technologies.",
 	},
 	{
-		id: 1,
+		id: 2,
 		bio: `
 	
 
@@ -31,6 +31,6 @@ export const aboutMeData = [
 	   },
 	{
 		id: 2,
-		bio: "I'm a Rwandan I'm SEBERA JONAS, a Rwandan with a passion for football and a talent for problem-solving. On the field, I excel in teamwork and strategic play. Off the field, I channel my skills into creative solutions and collaborative efforts. Let's score victories together, whether in sports or tackling real-world challenges.",
+		bio: "I'm SEBERA JONAS, a Rwandan with a passion for football and a talent for problem-solving. On the field, I excel in teamwork and strategic play. Off the field, I channel my skills into creative solutions and collaborative efforts. Let's score victories together, whether in sports or tackling real-world challenges.",
 	},
 ];
