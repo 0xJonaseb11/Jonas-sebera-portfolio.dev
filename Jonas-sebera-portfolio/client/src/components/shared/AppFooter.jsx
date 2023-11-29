@@ -50,7 +50,7 @@ const socialLinks = [
 	},
 	{
 		id: 7,
-		icon: <img src={Quora} alt="Quora logo" width={70}/>,
+		icon: <img src={Quora} alt="Quora logo" width={60}/>,
 		url: 'https://www.quora.com/profile/Jaz-1378',
 	},
 	{
@@ -71,7 +71,7 @@ const AppFooter = () => {
 					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
 						Let's go social
 					</p>
-					<ul className="flex gap-3 sm:gap-8">
+					<ul className="grid grid-cols-2 gap-3 sm:gap-8 flex-col md:grid md:grid-cols-4">
 						{socialLinks.map((link) => (
 							<a
 								href={link.url}

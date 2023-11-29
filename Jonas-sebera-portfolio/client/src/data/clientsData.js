@@ -1,60 +1,41 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+
+import Chelsea from "../images/brands/chelsea.png";
+import Digital from "../images/brands/digital-marketing.png";
+import Crypto from "../images/brands/crypto.png";
+import Ethereum from "../images/brands/ethereum.png";
 
 
-export const clientsHeading = 'Some of the brands that are of my interest';
+
+export const clientsHeading = 'My Areas of great interests';
 
 export const clientsData = [
+	
 	{
 		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'CHELSEA',
+		img: Chelsea ,//<video title='chelsea brand' className="w-11/12  m-2 rounded-full" src='https://iconscout.com/lottie-animation/chelsea-8415949' autoPlay loop muted ></video>
+		description: "My favorite team in the Premier League. Being the team that is currently perfoming poorly, makes me a strong and patient guy on the planet."
 	},
 	{
 		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+		title: "Digital marketing",
+		img: Digital,
+		description: "Digital marketing"
 	},
 	{
 		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
+		title: "Crypto trading",
+		img: Crypto,
+		description: "Crpyto trading"
 	},
 	{
 		id: 4,
-		title: 'FILA',
-		img: FilaImage,
+		title: "Ethereum",
+		img: Ethereum,
+		description: "Ethereum"
 	},
 	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: 7,
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
-	},
-	{
-		id: 9,
-		title: 'CHELSEA',
-		img: <img src='https://iconscout.com/lottie-animation/chelsea-8415949' alt='Chelsea brand' />
+		id: 
 	}
 ];
