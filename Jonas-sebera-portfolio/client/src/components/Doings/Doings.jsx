@@ -6,7 +6,7 @@ import IconWeb from '../../images/Doings/icon-dev.svg';
 import IconApp from '../../images/Doings/icon-app.svg';
 import IconDesign from '../../images/Doings/icon-design.svg';
 import IconEmbeded from '../../images/Doings/icon-photo.svg';
-import Web3Icon from "../../images/Doings/Web3Icon.png";
+import Web3Icon from "../../images/Doings/web3Icon.png";
 
 // Define an array of services
 const services = [
