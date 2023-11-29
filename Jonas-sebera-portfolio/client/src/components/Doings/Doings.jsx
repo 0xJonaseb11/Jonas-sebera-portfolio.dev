@@ -1,12 +1,16 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-// Import your icons
+// Import icons
 import IconWeb from '../../images/Doings/icon-dev.svg';
-import IconApp from '../../images/Doings/icon-app.svg';
 import IconDesign from '../../images/Doings/icon-design.svg';
-import IconEmbeded from '../../images/Doings/icon-photo.svg';
 import Web3Icon from "../../images/Doings/web3Icon.png";
+import Solidity from "../../images/Doings/Solidity.png";
+// import solidity from "../../images/Doings/solidity.png";
+import blockchain from "../../images/Doings/blockchain.png";
+import database from "../../images/Doings/database.jpeg";
+
+
 
 // Define an array of services
 const services = [
@@ -16,7 +20,7 @@ const services = [
     description: 'High-quality development of sites at the professional level.',
   },
   {
-    icon: IconApp,
+    icon: Web3Icon,
     title: 'Web3.0 development',
     description: 'Professional development of blockchain and smart contract-based applications.',
   },
@@ -26,13 +30,18 @@ const services = [
     description: 'The most modern and high-quality design made at a professional level.',
   },
   {
-    icon: IconEmbeded,
-    title: 'Embeded systems',
-    description: 'Unlock endless tech opportunities by learning embedded systems design and development.',
+    icon: database,
+    title: 'Relational database development',
+    description: 'Unlock endless tech opportunities by getting access to Super Optimized Databases.',
   },
   {
-    icon: Web3Icon,
+    icon: Solidity,
     title: 'Solidity smart contract development.',
+    description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
+  },
+  {
+    icon: blockchain,
+    title: 'Blockchain and Dapps development.',
     description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
   },
 ];
