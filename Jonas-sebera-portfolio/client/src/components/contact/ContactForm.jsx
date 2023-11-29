@@ -41,8 +41,8 @@ const ContactForm = () => {
 					ref={form}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
-					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
-						Connect With Jonas Sebera 🙋
+					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8 font-bold text-[#999]">
+						Connect With Me🙋
 					</p>
 					<FormInput
 						inputLabel="Full Name"
@@ -89,7 +89,7 @@ const ContactForm = () => {
 						></textarea>
 					</div>
 
-					<div className="font-general-medium flex items-center justify-center min-w-fit w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+					<div className="font-general-medium flex items-center justify-center min-w-fit w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-[#999] hover:bg-[#9999] focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
 						{!isLoading && <button type='submit'>Send Message</button>}
 						{isLoading && <CircularProgress color='inherit' size={'1.5rem'} />}
 					</div>

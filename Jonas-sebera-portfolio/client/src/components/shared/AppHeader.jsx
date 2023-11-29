@@ -51,7 +51,7 @@ const AppHeader = () => {
 								<><img
 									src={logoDark}
 									className="w-36 rounded-full"
-									alt="Dark Logo" /><p className=''>JONAS</p></>
+									alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-4'>JONAS SEBERA</p></>
 							) : (
 								<><img
 										src={logoLight}
