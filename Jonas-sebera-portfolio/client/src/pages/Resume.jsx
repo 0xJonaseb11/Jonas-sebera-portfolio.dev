@@ -112,12 +112,12 @@ const Resume = () => {
                         <TimelineContent>
                             <li className="timeline-item flex flex-col gap-1">
 
-                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Frontend Develper At Italos</h4>
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Frontend Developer At Italos</h4>
 
                                 <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>2021 — 2023</span>
 
                                 <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
-                                    At Italos, I worked as a frontend developer. My role involvedcreating and implementing user interface components and designing engaging and user-friendly web interfaces. I utilized various frontend technologies such as React and Bootstrap to build interactive and responsive websites. I collaborated with the design and development teams to ensure a seamless user experience.
+                                    At Italos, I worked as a frontend developer. My role involved creating and implementing user interface components and designing engaging and user-friendly web interfaces. I utilized various frontend technologies such as React and tailwindcss to build interactive and responsive websites. I collaborated with the design and development teams to ensure a seamless user experience.
                      F           </p>
 
                             </li>
@@ -131,12 +131,12 @@ const Resume = () => {
                         <TimelineContent>
                             <li className="timeline-item flex flex-col gap-1">
 
-                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Fullstack Develper At Akashi</h4>
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Mid-Level Smart Contract Engineer</h4>
 
-                                <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>2020 — 2021</span>
+                                <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>2023 — 2023</span>
 
                                 <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
-                                    At Akashi, I was employed as a fullstack developer. In this role, I was responsible for both frontend and backend development. I worked with a range of technologies, frameworks, and programming languages to build robust and scalable web applications. I collaborated with cross-functional teams to design, develop, and deploy innovative software solutions.
+                                    At blockify, I was employed as a mid-level smart contract developer. In this role, I was responsible for developing and testing intermediary smart contracts to interact with clients and services provided by different Web site. I worked with a range of technologies, frameworks, and programming languages to build robust and scalable decentralized applications. I collaborated with cross-functional teams to design, develop, and deploy innovative software solutions.
                                 </p>
 
                             </li>

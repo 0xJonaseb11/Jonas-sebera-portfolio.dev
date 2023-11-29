@@ -17,7 +17,7 @@ const services = [
   {
     icon: IconWeb,
     title: 'Web2.0 development',
-    description: 'High-quality development of sites at the professional level.',
+    description: 'High-quality development of web2.0 based applications at professional level.',
   },
   {
     icon: Web3Icon,
