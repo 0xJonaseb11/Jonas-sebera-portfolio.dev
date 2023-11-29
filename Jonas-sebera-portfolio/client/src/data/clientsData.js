@@ -4,6 +4,12 @@ import Chelsea from "../images/brands/chelsea.png";
 import Digital from "../images/brands/digital-marketing.png";
 import Crypto from "../images/brands/crypto.png";
 import Ethereum from "../images/brands/ethereum.png";
+import Football from "../images/brands/football.jpeg";
+import Sharing from "../images/brands/meeting.jpeg"
+import Work_love from "../images/brands/work.jpeg";
+import Values from "../images/brands/values.png";
+import Innovation from "../images/brands/innovation.jpeg";
+
 
 
 
@@ -36,6 +42,33 @@ export const clientsData = [
 		description: "Ethereum"
 	},
 	{
-		id: 
+		id: 5,
+		title: "Football",
+		img: Football,
+		description: "Playing football"
+	},
+	{
+		id: 6,
+		title: "Sharing ideas",
+		img: Sharing,
+		description: "Sharing ideas in collaboration environment"
+	},
+	{
+		id: 7,
+		title: "Job love",
+		img: Work_love,
+		description: "Job love"
+	},
+	{
+		id: 8,
+		title: "Work Values",
+		img: Values,
+		description: "Values at the work"
+	},
+	{
+		id: 9,
+		title: "Innovation",
+		img: Innovation,
+		description: "Innovative ideas"
 	}
 ];
