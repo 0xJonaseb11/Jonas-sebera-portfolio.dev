@@ -192,7 +192,7 @@ const AppHeader = () => {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer ml-8"
 					>
 						{activeTheme === 'dark' ? (
 							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />

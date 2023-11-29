@@ -282,3 +282,4 @@ body {
   .lg-react-element{
 	@apply flex flex-wrap justify-center lg:justify-start w-full gap-[1rem]
   }
+

@@ -50,7 +50,7 @@ const Doings = () => {
   return (
     <section className="service text-primary-dark dark:text-ternary-light">
       <h3 className="h3 service-title font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
-        What I'm Doing
+        My delivery
       </h3>
       <ul className="service-list mt-[3rem]">
         {services.map((service, index) => (

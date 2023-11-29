@@ -8,6 +8,7 @@ import SamsungImage from '../images/brands/samsung_gray.png';
 import CanonImage from '../images/brands/canon_gray.png';
 import PumaImage from '../images/brands/puma_gray.png';
 
+
 export const clientsHeading = 'Some of the brands that are of my interest';
 
 export const clientsData = [
@@ -51,4 +52,9 @@ export const clientsData = [
 		title: 'PUMA',
 		img: PumaImage,
 	},
+	{
+		id: 9,
+		title: 'CHELSEA',
+		img: <img src='https://iconscout.com/lottie-animation/chelsea-8415949' alt='Chelsea brand' />
+	}
 ];
