@@ -1,7 +1,7 @@
-import Discord from "../../images/discord.png";
+import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
-import Quora from "../../images/Quora.png";
+import Quora from "../../images/quora.jpeg";
 
 
 import {
@@ -19,43 +19,43 @@ import AppFooterCopyright from './AppFooterCopyright';
 const socialLinks = [
 	{
 		id: 1,
-		icon: <FiGithub />,
+		icon: <FiGithub className="m-4"/>,
 		url: 'https://github.com/Jonas-sebera',
 	},
 	{
 		id: 2,
-		icon: <img src={Discord} alt="Discord Logo" width={45}/>,
+		icon: <img src={Discord} alt="Discord Logo" width={45} className="m-4"/>,
 		url: 'https://discord.com/users/1065213095431131218',
 	},
 	{
 		id: 3,
-		icon: <FiLinkedin />,
+		icon: <FiLinkedin className="m-4"/>,
 		url: 'https://www.linkedin.com/in/sebera-jonas/',
 	},
 	{
 		id: 4,
-		icon: <FiFacebook />,
+		icon: <FiFacebook className="m-4"/>,
 		url: 'https://www.facebook.com/jonaswalker.deborde/',
 	},
 	{
 		id: 5,
-		icon: <FiInstagram />,
+		icon: <FiInstagram className="m-4"/>,
 		url: 'https://www.instagram.com/sebe_j_az99',
 	},
 	
 	{
 		id: 6,
-		icon: <img src={Medium} alt="Medium Logo" width={50}/>,
+		icon: <img src={Medium} alt="Medium Logo" width={50} className="m-4"/>,
 		url: 'https://medium.com/@sebejaz99',
 	},
 	{
 		id: 7,
-		icon: <img src={Quora} alt="Quora logo" width={60}/>,
+		icon: <img src={Quora} alt="Quora logo" width={60} className="m-4"/>,
 		url: 'https://www.quora.com/profile/Jaz-1378',
 	},
 	{
 		id: 8,
-		icon: <img src={Dev} alt="Dev Community logo" width={50}/>,
+		icon: <img src={Dev} alt="Dev Community logo" width={50} className="m-4"/>,
 		url: 'https://dev.to/jonassebera',
 	}
 	
@@ -71,13 +71,13 @@ const AppFooter = () => {
 					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
 						Let's go social
 					</p>
-					<ul className="grid grid-cols-2 gap-3 sm:gap-8 flex-col md:grid md:grid-cols-4">
+					<ul className="grid grid-cols-2 gap-3 sm:gap-8 md:grid md:grid-cols-4">
 						{socialLinks.map((link) => (
 							<a
 								href={link.url}
 								target="__blank"
 								key={link.id}
-								className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+								className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-xl bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-0 m-2 duration-300"
 							>
 								<i className="text-xl sm:text-2xl md:text-3xl">
 									{link.icon}

@@ -8,10 +8,10 @@ import Football from "../images/brands/football.jpeg";
 import Sharing from "../images/brands/meeting.jpeg"
 import Work_love from "../images/brands/work.jpeg";
 import Values from "../images/brands/values.png";
-import Innovation from "../images/brands/innovation.jpeg";
-
-
-
+import Decentralization from "../images/brands/decentralization.png";
+import Reading from "../images/brands/reading.png";
+import Shows from "../images/brands/shows.jpeg";
+import Spotify from "../images/brands/spotify.jpeg";
 
 export const clientsHeading = 'My Areas of great interests';
 
@@ -43,32 +43,51 @@ export const clientsData = [
 	},
 	{
 		id: 5,
+		title: "Decentralization",
+		img: Decentralization,
+		description: "Decentralization - dapps"
+	},
+	{
+		id: 6,
 		title: "Football",
 		img: Football,
 		description: "Playing football"
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Sharing ideas",
 		img: Sharing,
 		description: "Sharing ideas in collaboration environment"
 	},
 	{
-		id: 7,
+		id: 8,
 		title: "Job love",
 		img: Work_love,
 		description: "Job love"
 	},
 	{
-		id: 8,
+		id: 9,
 		title: "Work Values",
 		img: Values,
 		description: "Values at the work"
 	},
 	{
-		id: 9,
-		title: "Innovation",
-		img: Innovation,
-		description: "Innovative ideas"
+		id: 10,
+		title: "Book reading",
+		img: Reading,
+		description: "Reading books"
+	},
+	{
+		id: 11,
+		title: "Watching live shows",
+		img: Shows,
+		description: "I love to watch live shows"
+	},
+	{
+		id: 12,
+		title: "Listening to Music",
+		img: Spotify,
+		description: "I Love listening to sportify music"
 	}
+	
 ];
