@@ -16,6 +16,26 @@ import {
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
+
+const CopyAddressButton = ({ walletAddress }) => {
+	const addressRef = useRef(null);
+  
+	const handleCopyClick = () => {
+	  if (addressRef.current) {
+		const textArea = document.createElement('textarea');
+		textArea.value = walletAddress;
+		document.body.appendChild(textArea);
+		textArea.select();
+		document.execCommand('copy');
+		document.body.removeChild(textArea);
+  
+		
+		console.log('Address copied to clipboard');
+	  }
+	};
+  
+
+
 const socialLinks = [
 	{
 		id: 1,
@@ -85,10 +105,21 @@ const AppFooter = () => {
 							</a>
 						))}
 					</ul>
+
+					<div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-3xl">
+						<p className="font-semibold mb-2 text-[#999] text-3xl">We also take coffee please</p>
+						<p className="font-serif">0xcfdEf8165d722DC56a1FD06923de261B5B9d8626</p>
+					</div>
+					
 				</div>
 
 				<AppFooterCopyright />
 			</div>
+			<div>
+      <span ref={addressRef}>{walletAddress}</span>
+      <button onClick={handleCopyClick}>Copy Address</button>
+    </div>
+  
 		</div>
 	);
 };

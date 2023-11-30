@@ -1,7 +1,7 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
-// import blockchain_technology from "../../images/blockchain-technology.mp4";
+
 
 const AppBanner = () => {
 
@@ -12,7 +12,9 @@ const AppBanner = () => {
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 			className="flex flex-col items-center lg:flex-row mt-12 md:mt-2"
 		>
+
 			<div className="w-full md:w-1/3 text-left">
+				
 				<motion.h1
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}

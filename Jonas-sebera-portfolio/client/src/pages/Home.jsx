@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 const Home = () => {
 	return (
 		<div className="container mx-auto w-full">
+			
 			<AppBanner></AppBanner>
 
 			<Doings />

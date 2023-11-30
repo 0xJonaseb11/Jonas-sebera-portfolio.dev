@@ -11,7 +11,10 @@ const selectOptions = [
 	'Databases',
 	'Blockchain Related',
 	'Digital Marketing',
-	''
+	'Cypto Trading',
+	'Web3.0 Consultancy',
+	'Project Management',
+	'Just a Talk'
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
@@ -62,10 +65,10 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name="email"
+										name=""
 										type="text"
 										required=""
-										placeholder="Email Address"
+										placeholder="Email address"
 										aria-label=""
 									/>
 								</div>

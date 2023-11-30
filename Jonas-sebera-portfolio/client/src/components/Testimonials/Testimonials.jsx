@@ -46,7 +46,7 @@ const Testimonials = () => {
       reviewAlt: "High Commitment",
       details:
         "Their services exceeded my expectations in every way. i liked the way they stayed attached to me even after the completion of work.",
-      name: "Janet Allison",
+      name: "Gerard Bannet",
       position: "Marketing Manager",
       rating: 5,
     },
@@ -55,7 +55,7 @@ const Testimonials = () => {
       reviewAlt: "Professionals",
       details:
         "Just wow! I was just  impressed by the way they handled every situatuon that required great expertise. I'm really satisfied!",
-      name: "Gerard Ali",
+      name: "Janet Allison",
       position: "CEO",
       rating: 4,
     },
