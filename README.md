@@ -8,7 +8,7 @@ This marks my overall skill set show case so far with my Software Engineering jo
 
 @All rights reserved copy of this software and associated documentation files<br/> @copyright 2023 @Jonas-sebera
 
-Report anything at `sebejaz99@gmail.com`
+Report anything at sebejaz99@gmail.com
 
 <hr>
 
