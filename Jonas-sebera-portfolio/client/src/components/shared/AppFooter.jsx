@@ -1,7 +1,14 @@
-import React, { useRef } from 'react';  // Add this line to import `useRef`
-import AppFooterCopyright from './AppFooterCopyright';  // Add this line to import `AppFooterCopyright`
-
-// ... (previous imports)
+import React, { useRef } from 'react';
+import Discord from "../../images/discord.jpeg";
+import Dev from "../../images/Dev.png";
+import Medium from "../../images/Medium.png";
+import Quora from "../../images/quora.jpeg";
+import {
+  FiGithub,
+  FiLinkedin,
+  FiInstagram,
+} from 'react-icons/fi';
+import AppFooterCopyright from './AppFooterCopyright';
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
@@ -28,7 +35,36 @@ const CopyAddressButton = ({ walletAddress }) => {
 };
 
 const socialLinks = [
-  // ... (socialLinks array)
+  {
+    id: 1,
+    icon: <FiGithub className="m-2" />,
+    url: 'https://github.com/Jonas-sebera',
+  },
+  {
+    id: 2,
+    icon: <img src={Discord} alt="Discord Logo" width={45} className="m-2" />,
+    url: 'https://discord.com/users/1065213095431131218',
+  },
+  {
+    id: 3,
+    icon: <FiLinkedin className="m-2" />,
+    url: 'https://www.linkedin.com/in/sebera-jonas/',
+  },
+  {
+    id: 5,
+    icon: <FiInstagram className="m-2" />,
+    url: 'https://www.instagram.com/sebe_j_az99',
+  },
+  {
+    id: 6,
+    icon: <img src={Medium} alt="Medium Logo" width={50} className="m-2" />,
+    url: 'https://medium.com/@sebejaz99',
+  },
+  {
+    id: 7,
+    icon: <img src={Quora} alt="Quora logo" width={60} className="m-2" />,
+    url: 'https://www.quora.com/profile/Jaz-1378',
+  },
 ];
 
 const AppFooter = () => {
@@ -57,13 +93,11 @@ const AppFooter = () => {
         <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-3xl">
           <p className="font-semibold mb-2 text-[#999] text-3xl">We also take coffee please</p>
           <p className="font-serif">
-		  <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
-</p>
+            <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+          </p>
         </div>
-        
       </div>
 
-      
       <AppFooterCopyright />
     </div>
   );
