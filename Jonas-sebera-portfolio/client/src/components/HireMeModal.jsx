@@ -3,10 +3,15 @@ import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
+	'Web2.0 Application',
+	'Web3.0 Application',
 	'UI/UX Design',
-	'Branding',
+	'Web design',
+	'Smart contract',
+	'Databases',
+	'Blockchain Related',
+	'Digital Marketing',
+	''
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
@@ -57,10 +62,10 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name=""
+										name="email"
 										type="text"
 										required=""
-										placeholder=""
+										placeholder="Email Address"
 										aria-label=""
 									/>
 								</div>

@@ -51,12 +51,12 @@ const AppHeader = () => {
 								<><img
 									src={logoDark}
 									className="w-10 rounded-full md:w-24"
-									alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-4'>JONAS SEBERA</p></>
+									alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-2'>JONAS SEBERA</p></>
 							) : (
 								<><img
 										src={logoLight}
 										className="w-10 rounded-full md:w-20"
-										alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-4'>JONAS SEBERA</p></>
+										alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-2'>JONAS SEBERA</p></>
 							)}
 						</Link>
 					</div>
@@ -139,7 +139,7 @@ const AppHeader = () => {
 							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
 							aria-label="Hire Me Button"
 						>
-							<Button title="Hire Me" />
+							<Button title="Hire " />
 						</span>
 					</div>
 				</div>
@@ -184,7 +184,7 @@ const AppHeader = () => {
 							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
-							<Button title="Hire Me" />
+							<Button title="Delegate a hunt" />
 						</span>
 					</div>
 

@@ -68,10 +68,10 @@ const AppFooter = () => {
 			<div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-10">
 						Let's go social
 					</p>
-					<ul className="grid grid-cols-2 gap-3 sm:gap-8 md:grid md:grid-cols-4 ml-2 ">
+					<ul className="grid grid-cols-2 gap-3 sm:gap-8 md:grid md:grid-cols-4 ml-2">
 						{socialLinks.map((link) => (
 							<a
 								href={link.url}
@@ -79,7 +79,7 @@ const AppFooter = () => {
 								key={link.id}
 								className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-xl bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
 							>
-								<i className="text-xl sm:text-2xl md:text-3xl">
+								<i className="text-xl sm:text-2xl md:text-4xl">
 									{link.icon}
 								</i>
 							</a>

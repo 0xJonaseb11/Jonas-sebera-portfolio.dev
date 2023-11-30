@@ -43,28 +43,28 @@ const Testimonials = () => {
   const testimonials = [
     {
       image: "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg",
-      reviewAlt: "Exceptional Service",
+      reviewAlt: "High Commitment",
       details:
-        "I had a fantastic experience working with this team. They exceeded my expectations in every way. Highly recommended!",
-      name: "Alice Johnson",
+        "Their services exceeded my expectations in every way. i liked the way they stayed attached to me even after the completion of work.",
+      name: "Janet Allison",
       position: "Marketing Manager",
       rating: 5,
     },
     {
       image: "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-02/image-01.jpg",
-      reviewAlt: "Great Company",
+      reviewAlt: "Professionals",
       details:
-        "This company is top-notch. Their professionalism and dedication to their clients are truly remarkable. I'm a satisfied customer!",
-      name: "Bob Smith",
+        "Just wow! I was just  impressed by the way they handled every situatuon that required great expertise. I'm really satisfied!",
+      name: "Gerard Ali",
       position: "CEO",
       rating: 4,
     },
     {
       image: "https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-05/image-01.jpg",
-      reviewAlt: "Impressive Work",
+      reviewAlt: "Best definition of Impression",
       details:
-        "I was impressed by the quality of their work. They delivered on time and with exceptional attention to detail. Great job!",
-      name: "Emma Davis",
+        "I was impressed by the quality of their work. The delivery was timely and with exceptional attention to detail.",
+      name: "Jackson Deborde",
       position: "Product Manager",
       rating: 5,
     },
@@ -82,7 +82,7 @@ const Testimonials = () => {
       reviewAlt: "Highly Recommended",
       details:
         "I highly recommend their services. They have a talented team that goes above and beyond to meet client needs. You won't be disappointed!",
-      name: "Sophia Martinez",
+      name: "Allen Broony",
       position: "COO",
       rating: 4,
     },
