@@ -6,6 +6,7 @@ import Quora from "../../images/quora.jpeg";
 import {
   FiGithub,
   FiLinkedin,
+  FiFacebook,
   FiInstagram,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
@@ -50,6 +51,12 @@ const socialLinks = [
     icon: <FiLinkedin className="m-2" />,
     url: 'https://www.linkedin.com/in/sebera-jonas/',
   },
+{
+  id: 4,
+  icon: <FiFacebook className="m-2"/>,
+  url: 'https://www.facebook.com/jonaswalker.deborde/',
+},
+
   {
     id: 5,
     icon: <FiInstagram className="m-2" />,
@@ -65,6 +72,11 @@ const socialLinks = [
     icon: <img src={Quora} alt="Quora logo" width={60} className="m-2" />,
     url: 'https://www.quora.com/profile/Jaz-1378',
   },
+  {
+	id: 8,
+	icon: <img src={Dev} alt="Dev Community logo" width={50} className="m-2"/>,
+	url: 'https://dev.to/jonassebera',
+}
 ];
 
 const AppFooter = () => {
@@ -90,9 +102,9 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-3xl">
-          <p className="font-semibold mb-2 text-[#999] text-3xl">We also take coffee please</p>
-          <p className="font-serif">
+        <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-2xl dark:bg-[#9999] ">
+          <p className="font-semibold mb-2 text-[#999] dark:text-white text-2xl">We also take coffee please! BUT real <code className='text-base'>ETH</code> not <code className='text-base'>faucets</code></p>
+          <p className="font-serif text-2xl"> Wallet:
             <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
           </p>
         </div>
