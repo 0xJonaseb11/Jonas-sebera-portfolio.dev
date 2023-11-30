@@ -3,13 +3,10 @@ import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
 import Quora from "../../images/quora.jpeg";
-import {
-  FiGithub,
-  FiLinkedin,
-  FiFacebook,
-  FiInstagram,
-} from 'react-icons/fi';
+import {FiGithub,FiLinkedin,FiFacebook,FiInstagram} from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
+
+
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
@@ -105,7 +102,10 @@ const AppFooter = () => {
         <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-2xl dark:bg-[#9999] ">
           <p className="font-semibold mb-2 text-[#999] dark:text-white text-2xl">We also take coffee please! BUT real <code className='text-base'>ETH</code> not <code className='text-base'>faucets</code></p>
           <p className="font-serif   "> Wallet:
-            <div className=' '> <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+
+            <div className=' '>
+              <code language="sh"><CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+              </code>
           </div>
           </p>
         </div>
