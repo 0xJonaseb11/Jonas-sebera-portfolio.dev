@@ -1,19 +1,19 @@
 // Import images
 
-import Chelsea from "../images/brands/chelsea.png";
-import Digital from "../images/brands/digital-marketing.png";
-import Crypto from "../images/brands/crypto.png";
-import Ethereum from "../images/brands/ethereum.png";
-import Football from "../images/brands/football.jpeg";
-import Sharing from "../images/brands/meeting.jpeg"
-import Work_love from "../images/brands/work.jpeg";
-import Values from "../images/brands/values.png";
-import Decentralization from "../images/brands/decentralization.png";
-import Reading from "../images/brands/reading.png";
-import Shows from "../images/brands/shows.jpeg";
-import Spotify from "../images/brands/spotify.jpeg";
+import Chelsea from "../images/Interests/chelsea.png";
+import Digital from "../images/Interests/digital-marketing.png";
+import Crypto from "../images/Interests/crypto.png";
+import Ethereum from "../images/Interests/ethereum.png";
+import Football from "../images/Interests/football.jpeg";
+import Sharing from "../images/Interests/meeting.jpeg"
+import Work_love from "../images/Interests/work.jpeg";
+import Values from "../images/Interests/values.png";
+import Decentralization from "../images/Interests/decentralization.png";
+import Reading from "../images/Interests/reading.png";
+import Shows from "../images/Interests/shows.jpeg";
+import Spotify from "../images/Interests/spotify.jpeg";
 
-export const clientsHeading = 'My Areas of great interests';
+export const clientsHeading = 'My Areas Of Great Interests';
 
 export const clientsData = [
 	

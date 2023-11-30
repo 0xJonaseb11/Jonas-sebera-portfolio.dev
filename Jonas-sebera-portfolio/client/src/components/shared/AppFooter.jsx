@@ -105,7 +105,8 @@ const AppFooter = () => {
         <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-2xl dark:bg-[#9999] ">
           <p className="font-semibold mb-2 text-[#999] dark:text-white text-2xl">We also take coffee please! BUT real <code className='text-base'>ETH</code> not <code className='text-base'>faucets</code></p>
           <p className="font-serif text-2xl"> Wallet:
-            <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+            <div className='w-3/4'> <CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+          </div>
           </p>
         </div>
       </div>
