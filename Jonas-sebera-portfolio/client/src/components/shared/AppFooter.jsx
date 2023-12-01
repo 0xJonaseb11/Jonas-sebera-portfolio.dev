@@ -104,7 +104,7 @@ const AppFooter = () => {
           <p className="font-serif   "> Wallet:
 
             <div className=' '>
-              <code language="sh"><CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626" />
+              <code language="sh"><CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626"/>
               </code>
           </div>
           </p>
