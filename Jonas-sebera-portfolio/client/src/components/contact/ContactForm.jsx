@@ -20,7 +20,7 @@ const ContactForm = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 		setIsLoading(true);
-		emailjs.sendForm('service_4l7kxq7', 'template_len7agm', form.current, 'dQ5I1i5gTw22cXzt1')
+		emailjs.sendForm('service_mk44hmb', 'template_sb5r0yg', form.current, 'VrfkLl3nzSOSIU9MB')
 			.then((result) => {
 				console.log(result.text);
 				setIsLoading(false);

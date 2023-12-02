@@ -6,7 +6,7 @@ Sample-Preview
 
 This marks my overall skill set show case so far with my Software Engineering journey 
 
-@All rights reserved copy of this software and associated documentation files<br/> @copyright 2023 @Jonas-sebera
+&#169; All rights reserved copy of this software and associated documentation files.<br/> &#169;copyright 2023 @Jonas-sebera
 
 Report anything at sebejaz99@gmail.com
 
