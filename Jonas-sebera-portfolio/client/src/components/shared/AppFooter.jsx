@@ -3,10 +3,8 @@ import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
 import Quora from "../../images/quora.jpeg";
-import {FiGithub,FiLinkedin,FiFacebook,FiInstagram} from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
-
-
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
@@ -25,9 +23,16 @@ const CopyAddressButton = ({ walletAddress }) => {
   };
 
   return (
-    <div>
-      <span ref={addressRef}>{walletAddress}</span>
-      <button onClick={handleCopyClick} className='p-2 ml-2 rounded-xl bg-gray-300'> Copy </button>
+    <div className="flex items-center">
+      <span ref={addressRef} className="break-all mr-2">
+        {walletAddress}
+      </span>
+      <button
+        onClick={handleCopyClick}
+        className="p-2 rounded-xl bg-gray-300 text-gray-800 hover:bg-gray-400 transition"
+      >
+        Copy
+      </button>
     </div>
   );
 };
@@ -50,12 +55,11 @@ const socialLinks = [
     icon: <FiLinkedin className="m-2" />,
     url: 'https://www.linkedin.com/in/sebera-jonas/',
   },
-{
-  id: 4,
-  icon: <FiFacebook className="m-2"/>,
-  url: 'https://www.facebook.com/jonaswalker.deborde/',
-},
-
+  {
+    id: 4,
+    icon: <FiFacebook className="m-2" />,
+    url: 'https://www.facebook.com/jonaswalker.deborde/',
+  },
   {
     id: 5,
     icon: <FiInstagram className="m-2" />,
@@ -72,10 +76,10 @@ const socialLinks = [
     url: 'https://www.quora.com/profile/Jaz-1378',
   },
   {
-	id: 8,
-	icon: <img src={Dev} alt="Dev Community logo" width={50} className="m-2"/>,
-	url: 'https://dev.to/jonassebera',
-}
+    id: 8,
+    icon: <img src={Dev} alt="Dev Community logo" width={50} className="m-2" />,
+    url: 'https://dev.to/jonassebera',
+  },
 ];
 
 const AppFooter = () => {
@@ -101,24 +105,20 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="w-full mt-10 flex flex-col items-center bg-red-500 p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
-  <p className="font-semibold mb-2 text-[#999] dark:text-white text-lg md:text-xl lg:text-2xl xl:text-3xl">
-    We also take coffee, but real <code className="text-base">ETH</code> not{" "}
-    <p className="text-base text-center">faucets</p>
-  </p>
-  <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
-  <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
-  <div className="w-full bg-gray-500 rounded-full p-4 md:p-8 text-center">
-    <CopyAddressButton
-      walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626"
-      className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all w-full"
-    />
-  </div>
-</div>
-
-</div>
-
-
+        <div className="w-full mt-10 flex flex-col items-center dark:bg-indigo-500 p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+          <p className="font-semibold text-indigo-300 mb-2 text-lg md:text-xl lg:text-2xl xl:text-3xl">
+            We also take coffee, but real <code className="text-base">ETH</code> not <code>faucets</code>
+          </p>
+          <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
+            <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
+            <div className="w-full bg-gray-500 rounded-full p-4 md:p-8 text-center">
+              <CopyAddressButton
+                walletAddress={WalletAddress}
+                className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <AppFooterCopyright />
