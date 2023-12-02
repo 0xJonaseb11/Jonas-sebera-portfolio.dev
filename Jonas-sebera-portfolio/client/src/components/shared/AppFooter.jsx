@@ -105,13 +105,13 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="w-full mt-10 flex flex-col dark:bg-gray-700 items-center p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+        <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 items-center p-4 md:p-6 lg:p-12 xl:p-16 md:w-11/12 rounded-2xl  font-general-medium text-ternary-dark  dark:text-ternary-light" >
           <p className="font-semibold text-indigo-300 mb-2 text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            We also take coffee please, but real <code className="text-sm text-white">ETH</code> not <code className='text-sm text-white'>FAUCETS</code>
+            We also take coffee please, but real <code className="text-white text-xl">ETH</code> not <code className='text-sm text-white md:text-xl' >FAUCETS</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
-            <div className="w-full bg-gray-500 rounded-full p-4 md:p-8 text-center">
+            <div className="w-full bg-gray-700 rounded-full p-4 md:p-2 text-center items-center">
               <CopyAddressButton
                 walletAddress={WalletAddress}
                 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
