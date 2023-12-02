@@ -32,6 +32,8 @@ const CopyAddressButton = ({ walletAddress }) => {
   );
 };
 
+const WalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
+
 const socialLinks = [
   {
     id: 1,
@@ -99,16 +101,19 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="mt-10 items-center flex flex-col bg-indigo-100 p-8 w-full rounded-2xl dark:bg-[#9999] ">
-          <p className="font-semibold mb-2 text-[#999] dark:text-white text-2xl">We also take coffee please! BUT real <code className='text-base'>ETH</code> not <code className='text-base'>faucets</code></p>
-          <p className="font-serif   "> Wallet:
+        <div className="mt-10 flex flex-col items-center bg-indigo-100 p-8 w-full md:w-11/12 lg:w-3/4 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+  <p className="font-semibold mb-2 text-[#999] dark:text-white text-lg md:text-xl lg:text-2xl xl:text-3xl">
+    We also take coffee, but real <code className="text-base">ETH</code> not{" "}
+    <code className="text-base">faucets</code>
+  </p>
+  <div className="w-full">
+    <p className="font-serif">Wallet:</p>
+    <div className="w-full">
+      <CopyAddressButton walletAddress={WalletAddress} />
+    </div>
+  </div>
+</div>
 
-            <div className=' '>
-              <code language="sh"><CopyAddressButton walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626"/>
-              </code>
-          </div>
-          </p>
-        </div>
       </div>
 
       <AppFooterCopyright />
