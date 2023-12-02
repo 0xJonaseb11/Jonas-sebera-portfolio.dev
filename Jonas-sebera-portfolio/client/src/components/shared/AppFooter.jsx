@@ -101,13 +101,13 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="mt-10 flex flex-col items-center bg-indigo-100 p-8 w-full md:w-11/12 lg:w-3/4 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+        <div className="mt-10 flex flex-col items-center bg-indigo-100 p-4 md:p-8 w-full md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
   <p className="font-semibold mb-2 text-[#999] dark:text-white text-lg md:text-xl lg:text-2xl xl:text-3xl">
     We also take coffee, but real <code className="text-base">ETH</code> not{" "}
     <code className="text-base">faucets</code>
   </p>
-  <div className="w-full">
-    <p className="font-serif">Wallet:</p>
+  <div className="w-full md:w-11/12 lg:w-3/4 xl:w-2/3">
+    <p className="font-serif mb-2 md:mb-4">Wallet:</p>
     <div className="w-full">
       <CopyAddressButton walletAddress={WalletAddress} />
     </div>
