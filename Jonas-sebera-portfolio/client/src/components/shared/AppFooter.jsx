@@ -101,18 +101,23 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="mt-10 flex flex-col items-center bg-indigo-100 p-4 md:p-8 w-full md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+        <div className="w-full mt-10 flex flex-col items-center bg-red-500 p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
   <p className="font-semibold mb-2 text-[#999] dark:text-white text-lg md:text-xl lg:text-2xl xl:text-3xl">
     We also take coffee, but real <code className="text-base">ETH</code> not{" "}
-    <code className="text-base">faucets</code>
+    <p className="text-base text-center">faucets</p>
   </p>
-  <div className="w-full md:w-11/12 lg:w-3/4 xl:w-2/3">
-    <p className="font-serif mb-2 md:mb-4">Wallet:</p>
-    <div className="w-full">
-      <CopyAddressButton walletAddress={WalletAddress} />
-    </div>
+  <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
+  <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
+  <div className="w-full bg-gray-500 rounded-full p-4 md:p-8 text-center">
+    <CopyAddressButton
+      walletAddress="0xcfdEf8165d722DC56a1FD06923de261B5B9d8626"
+      className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all w-full"
+    />
   </div>
 </div>
+
+</div>
+
 
       </div>
 
