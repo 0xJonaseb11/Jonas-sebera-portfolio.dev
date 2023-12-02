@@ -105,9 +105,9 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="w-full mt-10 flex flex-col items-center dark:bg-indigo-500 p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
+        <div className="w-full mt-10 flex flex-col dark:bg-gray-700 items-center p-4 md:p-8 lg:p-12 xl:p-16 md:w-4/5 lg:w-3/5 xl:w-2/3 rounded-2xl dark:bg-[#9999]">
           <p className="font-semibold text-indigo-300 mb-2 text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            We also take coffee, but real <code className="text-base">ETH</code> not <code>faucets</code>
+            We also take coffee please, but real <code className="text-sm text-white">ETH</code> not <code className='text-sm text-white'>FAUCETS</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
