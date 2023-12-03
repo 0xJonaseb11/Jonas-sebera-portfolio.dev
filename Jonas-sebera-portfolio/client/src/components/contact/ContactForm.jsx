@@ -30,6 +30,7 @@ const ContactForm = () => {
 				console.log(error.text);
 				setIsLoading(false);
 				onError("Message not sent", error.text)
+				console.log("Message not sent!",error)
 			});
 	};
 
