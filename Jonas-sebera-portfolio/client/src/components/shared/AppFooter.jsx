@@ -114,8 +114,14 @@ const AppFooter = () => {
             <div className="w-full bg-gray-700 rounded-full p-4 md:p-2 text-center items-center">
               <CopyAddressButton
                 walletAddress={WalletAddress} 
+                
+                <div className="font-general-medium flex items-center justify-center min-w-fit w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-[#999] hover:bg-[#9999] focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+                {!isLoading && <button type='submit'>Send Message</button>}
+                {isLoading && <CircularProgress color='inherit' size={'1.5rem'} />}
+              </div>
+
                 //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
-              />
+             
             </div>
           </div>
         </div>
