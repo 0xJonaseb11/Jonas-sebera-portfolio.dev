@@ -1,11 +1,4 @@
-import React, { useRef, useState } from 'react';
-import CircularProgress from '@mui/material/CircularProgress';
-import { ToastContainer, toast } from "react-toastify";
-
-
-
-
-
+import React, { useRef } from 'react';
 import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
@@ -13,27 +6,7 @@ import Quora from "../../images/quora.jpeg";
 import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
-
-
-
-
-
-
-
-
 const CopyAddressButton = ({ walletAddress }) => {
-
-  const [isLoading, setIsLoading] = useState(false);
-  const onError = (error) =>
-  toast.error(error, {
-    position: "top-center",
-  });
-
-const onSuccess = (success) =>
-  toast.success(success, {
-    position: "top-center",
-  });
-
   const addressRef = useRef(null);
 
   const handleCopyClick = () => {
@@ -140,26 +113,15 @@ const AppFooter = () => {
             <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
             <div className="w-full bg-gray-700 rounded-full p-4 md:p-2 text-center items-center">
               <CopyAddressButton
-                walletAddress={WalletAddress} 
-
-                
-                 {...!isLoading && <button type='submit'>Copy</button>}
-                {...isLoading && <><CircularProgress color='inherit' size={'1.5rem'} /><div className="font-general-medium flex items-center justify-center min-w-fit w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-[#999] hover:bg-[#9999] focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
-
-
-                </div></>
-
-                
-
-                {/*className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"*/}
-             
+                walletAddress={WalletAddress}
+                //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
+              />
             </div>
           </div>
         </div>
       </div>
 
       <AppFooterCopyright />
-      <ToastContainer theme={"light"} />
     </div>
   );
 };
