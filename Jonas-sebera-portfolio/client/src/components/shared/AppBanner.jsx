@@ -13,7 +13,7 @@ const AppBanner = () => {
 			className="flex flex-col items-center lg:flex-row mt-12 md:mt-2"
 		>
 
-			<div className="w-full md:w-1/3 text-left">
+			<div className="w-full md:w-1/3 text-left 2xsm:p-0  ">
 				
 				<motion.h1
 					initial={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-sans text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left text-ternary-dark dark:text-primary-light whitespace-nowrap"
+					className="font-sans text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left text-ternary-dark dark:text-primary-light whitespace-nowrap"
 				>
 					Hi, I'm JONAS SEBERA
 				</motion.h1>
@@ -52,7 +52,7 @@ const AppBanner = () => {
 					<a
 						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-7 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 2xsm:ml-2 2xsm:p-2"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
@@ -68,7 +68,7 @@ const AppBanner = () => {
 					view="Jonas-Sebera-Resume"
 					href='https://resume.io/r/Cg5tKp0Qh'
 					target="_blank"
-					className='font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-7 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
+					className='font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
 					aria-label='View Resume here' rel="noreferrer"
 				>
 					<FiArrowRight className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
