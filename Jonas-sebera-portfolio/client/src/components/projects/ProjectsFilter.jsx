@@ -1,11 +1,11 @@
 const selectOptions = [
-	'Web2.0 Application',
-	'Web3.0 Application',
+	'Web2.0 Applications',
+	'Web3.0 Applications',
 	'UI/UX Design',
 	'Web design',
-	'Smart contract',
+	'Smart contracts',
 	'Databases',
-	'Blockchain ',
+	'Blockchain',
 	'Digital Marketing',
 	'Cypto Trading',
 ];
