@@ -105,13 +105,13 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-lg font-general-medium text-ternary-dark  dark:text-ternary-light" >
-          <p className="font-semibold text-indigo-300 mb-2 text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            We also take coffee please, but real <code className="text-white text-xl">ETH</code> not <code className='text-sm text-white md:text-xl' >FAUCETS</code>
+        <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 bg-gray-100 shadow-2xl border-none items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-lg font-general-medium text-ternary-dark  dark:text-ternary-light" >
+          <p className="font-semibold text-indigo-300 mb-2 text-lg md:text-xl lg:text-2xl xl:text-3xl shadow-sm">
+            We also take coffee please, but real <code className="dark:text-white text-xl text-black ">ETH</code> not <code className='text-sm md:text-xl text-black' >FAUCETS</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
-            <div className="w-full bg-gray-700 rounded-full p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center">
+            <div className="w-full dark:bg-gray-700 rounded-full bg-[#9999] p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center ">
               <CopyAddressButton
                 walletAddress={WalletAddress}
                 //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"

@@ -69,7 +69,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										type="text"
 										required=""
 										placeholder="Email address"
-										aria-label=""
+										aria-label="Email address"
 									/>
 								</div>
 								<div className="mt-6">
