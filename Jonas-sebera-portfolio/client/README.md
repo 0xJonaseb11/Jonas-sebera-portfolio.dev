@@ -1,4 +1,6 @@
-# React & TailwindCSS Portfolio - With Dark Mode
+# React & TailwindCSS Portfolio 
+
+@Jonas-sebera
 
 A simple portfolio starter theme built with React and Tailwind CSS. 
 
@@ -22,4 +24,6 @@ A simple portfolio starter theme built with React and Tailwind CSS.
 -   Download file button
 -   Simple and responsive design
 
+
+@Jonas-sebera
 
