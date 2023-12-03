@@ -16,7 +16,7 @@ const ContactForm = () => {
 			position: "top-center",
 		});
 
-	const form = useRef()
+	const form = useRef();
 	const sendEmail = (e) => {
 		e.preventDefault();
 		setIsLoading(true);
@@ -24,12 +24,12 @@ const ContactForm = () => {
 			.then((result) => {
 				console.log(result.text);
 				setIsLoading(false);
-				onSuccess("Message sent to Jonas Successfully");
+				onSuccess("Message sent to Jonas Successfully",result.text);
 				e.target.reset()
 			}, (error) => {
 				console.log(error.text);
 				setIsLoading(false);
-				onError("Message not sent", error)
+				onError("Message not sent", error.text)
 			});
 	};
 
