@@ -24,12 +24,12 @@ const ContactForm = () => {
 			.then((result) => {
 				console.log(result.text);
 				setIsLoading(false);
-				onSuccess("Message sent to Jonas Successfully",result.text);
+				onSuccess("Message sent to Jonas Successfully",result);
 				e.target.reset()
 			}, (error) => {
 				console.log(error.text);
 				setIsLoading(false);
-				onError("Message not sent", error.text)
+				onError("Message not sent", error)
 				console.log("Message not sent!",error)
 			});
 	};
