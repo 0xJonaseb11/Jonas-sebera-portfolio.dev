@@ -113,7 +113,7 @@ const AppFooter = () => {
             <p className="font-serif mb-2 md:mb-4 text-center">Wallet:</p>
             <div className="w-full bg-gray-700 rounded-full p-4 md:p-2 text-center items-center">
               <CopyAddressButton
-                walletAddress={WalletAddress}
+                walletAddress={WalletAddress} 
                 //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
               />
             </div>
