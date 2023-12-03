@@ -110,7 +110,7 @@ const AppFooter = () => {
             We also take coffee please! But real <code className="dark:text-white text-2xl text-indigo-500 ">ETH</code> not <code className=' text-indigo-500 text-2xl dark:text-white ' >FAUCETS</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
-            <p className="font-serif mb-2 md:mb-4 text-center text-black font-semibold">Wallet:</p>
+            <p className="font-serif mb-2 md:mb-4 text-center text-[#999] font-semibold text-2xl">Wallet:</p>
             <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
               <CopyAddressButton
                 walletAddress={WalletAddress}
