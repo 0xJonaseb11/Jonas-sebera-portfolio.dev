@@ -1,7 +1,13 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
+	'Web2.0 Application',
+	'Web3.0 Application',
 	'UI/UX Design',
+	'Web design',
+	'Smart contract',
+	'Databases',
+	'Blockchain ',
+	'Digital Marketing',
+	'Cypto Trading',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
