@@ -7,7 +7,7 @@ const selectOptions = [
 	'Databases',
 	'Blockchain',
 	'Digital Marketing',
-	'Cypto Trading',
+	'Crypto Trading',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

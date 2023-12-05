@@ -11,7 +11,7 @@ const selectOptions = [
 	'Databases',
 	'Blockchain Related',
 	'Digital Marketing',
-	'Cypto Trading',
+	'Crypto Trading',
 	'Web3.0 Consultancy',
 	'Project Management',
 	'Just a Talk'
