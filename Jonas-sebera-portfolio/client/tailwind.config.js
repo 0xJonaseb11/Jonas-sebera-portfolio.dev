@@ -17,8 +17,8 @@ module.exports = {
       container: {
         padding: {
           DEFAULT: '1rem',
-          '3xsm': '1rem',
-          '2xsm': '0.1rem',
+          '3xsm': '0rem',
+          '2xsm': '1rem',
           xsm: '2rem',
           sm: '2rem',
           md: '4rem',
@@ -28,8 +28,8 @@ module.exports = {
         },
       },
       screens: {
-        // '3xsm': '245px',
-        // '2xsm': '275px',
+        '3xsm': '245px',
+        '2xsm': '275px',
         'xsm':'475px',
         '2sm': '576px',
         'sm': '640px',

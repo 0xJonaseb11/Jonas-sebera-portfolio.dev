@@ -13,7 +13,7 @@ const AppBanner = () => {
 			className="flex flex-col items-center lg:flex-row mt-12 md:mt-2 ml-2"
 		>
 
-			<div className="w-full md:w-1/3 text-left 2xsm:p-0  ">
+			<div className="w-full md:w-1/3 text-left 2xsm:p-0">
 				
 				<motion.h1
 					initial={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-sans text-2xl lg:text-3xl xl:text-4xl text-center lg:text-left text-ternary-dark dark:text-primary-light whitespace-nowrap"
+					className="font-sans text-2xl lg:text-3xl xl:text-3xl text-center lg:text-left text-ternary-dark dark:text-primary-light"
 				>
 					Hi, I'm JONAS SEBERA
 				</motion.h1>
@@ -47,12 +47,12 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.3,
 					}}
-					className="flex justify-center lg:block"
+					className="flex justify-center lg:block 3xsm:block 3xsm:mx-6"
 				>
 					<a
 						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 2xsm:ml-2 2xsm:p-2"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 2xsm:ml-2 2xsm:p-2 3xsm:-mb-10"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
