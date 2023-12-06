@@ -106,8 +106,8 @@ const AppFooter = () => {
         </ul>
 
         <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 bg-gray-100 hover:shadow-2xl border-none items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-xl font-general-medium text-ternary-dark dark:text-ternary-light" >
-          <p className="font-semibold font-sans text-indigo-400 mb-2 text-lg md:text-xl lg:text-2xl shadow-sm dark:text-2xl">
-            A Quick reminder, We are not alergic to coffee please!! But real <code className="dark:text-white text-2xl text-indigo-600 ">ETH</code> not <code className=' text-indigo-600 text-2xl dark:text-white ' >FAUCETS.</code>
+          <p className="font-semibold font-sans text-indigo-400 mb-2 text-lg md:text-xl lg:text-2xl shadow-sm dark:text-xl 2xsm:text-xl 3xsm:text-base">
+            A Quick reminder, We are not alergic to coffee please!! But real <code className="dark:text-white text-xl text-indigo-600 ">ETH</code> not <code className=' text-indigo-600 text-xl dark:text-white ' >FAUCETS.</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-2xl">My wallet address:</p>
