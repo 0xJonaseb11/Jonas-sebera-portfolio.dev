@@ -37,11 +37,6 @@ const AboutCounter = () => {
 					measurement=""
 				/>
 
-					<CounterItem
-					title="Projects on GitHub"
-					counter={<span id="githubProjectsCounter" />}
-					measurement="+"
-				/>
 
 
 
