@@ -1,5 +1,4 @@
 import { useCountUp } from 'react-countup';
-import CounterItem from './CounterItem';
 import { useEffect, useState } from 'react';
 
 const AboutCounter = () => {
