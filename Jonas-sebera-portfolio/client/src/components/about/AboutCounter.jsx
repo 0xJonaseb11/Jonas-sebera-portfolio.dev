@@ -50,6 +50,11 @@ const AboutCounter = () => {
 					measurement="%"
 				/>
 
+				<CounterItem
+					title="Projects completed"
+					counter={<span id="projectsCounter" />}
+					measurement="%"
+				/>
 			</div>
 		</div>
 	);
