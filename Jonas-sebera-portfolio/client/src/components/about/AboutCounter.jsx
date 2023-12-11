@@ -44,11 +44,6 @@ const AboutCounter = () => {
 				/>
 
 
-				<CounterItem
-					title="Positive feedback"
-					counter={<span id="feedbackCounter" />}
-					measurement="%"
-				/>
 
 			</div>
 		</div>
