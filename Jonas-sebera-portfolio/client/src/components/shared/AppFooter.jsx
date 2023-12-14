@@ -107,7 +107,8 @@ const AppFooter = () => {
 
         <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 bg-gray-100 hover:shadow-2xl border-none items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-xl font-general-medium text-ternary-dark dark:text-ternary-light" >
           <p className="font-semibold font-sans text-indigo-400 mb-2 md:text-xl lg:text-xl shadow-sm sm:text-base xsm:text-base 2xsm:text-base 3xsm:text-base">
-            A Quick reminder, We are not alergic to coffee please!! But real <code className="dark:text-white text-xl text-indigo-600 ">ETH</code> not <code className=' text-indigo-600 text-xl dark:text-white ' >FAUCETS.</code>
+            A quick reminder, we are not alergic to coffee please!! But real <code className="dark:text-white text-xl text-indigo-600 ">
+              Eth</code> not <code className=' text-indigo-600 text-xl dark:text-white ' >Faucets.</code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">My wallet address:</p>
