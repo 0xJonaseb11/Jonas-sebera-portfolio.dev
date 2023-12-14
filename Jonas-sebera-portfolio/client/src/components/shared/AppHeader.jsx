@@ -148,28 +148,28 @@ const AppHeader = () => {
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999]  hover:text-xl hover:text-[#9999] sm:mx-4 mb-2 sm:py-2 font-light"
+						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999]   hover:text-[#9999] sm:mx-4 mb-2 sm:py-2 font-light"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/resume"
-						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="Resume"
 					>
 						Resume
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-[#999] text-lg dark:text-[#999] hover:text-[#9999] dark:hover:text-[#9999] hover:text-xl sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-[#999] text-lg dark:text-[#999] hover:text-[#9999] dark:hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						Contact
