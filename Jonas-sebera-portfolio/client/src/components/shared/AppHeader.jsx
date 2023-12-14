@@ -40,7 +40,7 @@ const AppHeader = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className="md:px-4 sm:container sm:mx-auto shadow-lg mt-2 rounded-2xl"
+			className="md:px-4 sm:container sm:mx-auto shadow-lg  rounded-2xl hover:shadow-xl"
 		>
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
 				{/* Header menu links and small screen hamburger menu */}
