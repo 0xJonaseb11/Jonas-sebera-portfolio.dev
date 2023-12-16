@@ -43,7 +43,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGithub className="m-2" />,
-    url: 'https://github.com/Jonas-sebera',
+    url: 'https://github.com/Jaz-3-0',
   },
   {
     id: 2,
