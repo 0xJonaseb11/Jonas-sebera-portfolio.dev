@@ -3,6 +3,9 @@ import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
 import Quora from "../../images/quora.jpeg";
+import Pinterest from "../../images/Pinterest.jpeg";
+import Vimeo from "../../images/Vimeo.png";
+import Behance from '../../images/Behance.png';
 import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -74,6 +77,21 @@ const socialLinks = [
     id: 7,
     icon: <img src={Quora} alt="Quora logo" width={60} className="m-2" />,
     url: 'https://www.quora.com/profile/Jaz-1378',
+  },
+  {
+    id: 8,
+    icon: <img src={Pinterest} alt='Pinterest logo' width={60} className='m-2'/>,
+    url: 'https://www.pinterest.com/jonassebera/',
+  },
+  {
+    id: 9,
+    icon: <img src={Vimeo} alt='Vimeo logo' width={60} className='m-2' />,
+    url: 'https://vimeo.com/user214096081',
+  },
+  {
+    id:10,
+    icon: <img src={Behance} al='Behance logo' width={60} className='m-2' />,
+    url: 'https://www.behance.net/jazjaz5',
   },
   {
     id: 8,
