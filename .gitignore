@@ -1,5 +1,6 @@
 .hintrc
 .env
+cache
 
 .coverage
 .artifacts
