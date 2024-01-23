@@ -90,7 +90,7 @@ const socialLinks = [
   },
   {
     id:10,
-    icon: <img src={Behance} al='Behance logo' width={60} className='m-2' />,
+    icon: <img src={Behance} alt='Behance logo' width={60} className='m-2' />,
     url: 'https://www.behance.net/jazjaz5',
   },
   {
