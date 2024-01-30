@@ -16,12 +16,12 @@ import database from "../../images/Doings/database.jpeg";
 const services = [
   {
     icon: IconWeb,
-    title: 'Web2.0 development',
+    title: 'Web2.0 Application Development',
     description: 'High-quality development of web2.0 based applications at professional level.',
   },
   {
     icon: Web3Icon,
-    title: 'Web3.0 development',
+    title: 'Web3.0 Application Development',
     description: 'Professional development of blockchain and smart contract-based applications.',
   },
   {
@@ -31,17 +31,17 @@ const services = [
   },
   {
     icon: database,
-    title: 'Relational database development',
+    title: 'Relational Database Development',
     description: 'Unlock endless tech opportunities by getting access to Super Optimized Databases.',
   },
   {
     icon: Solidity,
-    title: 'Solidity smart contract development.',
+    title: 'Solidity Smart Contract Development.',
     description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
   },
   {
     icon: blockchain,
-    title: 'Blockchain and Dapps development.',
+    title: 'Blockchain and Dapps Development.',
     description: 'Unlock endless tech opportunities With super developed and tested dapps and blockchain solutions.',
   },
 ];
