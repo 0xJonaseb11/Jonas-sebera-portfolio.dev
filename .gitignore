@@ -1,6 +1,8 @@
 .hintrc
 .env
 cache
+out
+build
 
 .coverage
 .artifacts
