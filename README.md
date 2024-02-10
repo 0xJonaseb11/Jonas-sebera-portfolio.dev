@@ -1,4 +1,6 @@
-### Author : @Jonas-sebera
+# My Portfolio
+
+**Author : @Jaz-3-0**_
 
 [View site](https://jonas-sebera.vercel.app)
 
@@ -6,12 +8,31 @@ Sample-Preview
 
 ![portfolio-sample-preview](localhost_3000.png)
 
-This marks my overall skill set show case so far with my Software Engineering journey 
+This marks my overall skill set show case so far with my Software Engineering journey
 
-&#169; All rights reserved, Copy of this software and associated documentation files.<br/> &#169;copyright 2023 @Jonas-sebera
+&#169; All rights reserved, Copy of this software and associated documentation files.
+&#169;copyright 2024 @Jaz-3-0
 
-Report anything at sebejaz99@gmail.com
+Report anything at <sebejaz99@gmail.com>
 
-<hr>
+**Want to offer some coffee??**
 
-@Jonas-sebera
+## `Solana`
+
+```sh
+ 4dDRpNKRtPAWYxPQufAJUyfE3nKbgAtEuP98raKJeFUq
+```
+
+### `Ethereum && Polygon`
+
+```sh
+0xcfdEf8165d722DC56a1FD06923de261B5B9d8626
+```
+
+```sh
+0x1418610d617486610acD73a147facE7f89115A2a
+```
+
+--------------------
+
+@Jaz-3-0
