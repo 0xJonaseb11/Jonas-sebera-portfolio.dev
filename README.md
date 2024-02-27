@@ -15,7 +15,7 @@ This marks my overall skill set show case so far with my Software Engineering jo
 
 Report anything at <sebejaz99@gmail.com>
 
-**Want to offer some coffee??**
+## **Amazed by Our work?? Send us some coffee**
 
 ## `Solana`
 
@@ -23,11 +23,17 @@ Report anything at <sebejaz99@gmail.com>
  4dDRpNKRtPAWYxPQufAJUyfE3nKbgAtEuP98raKJeFUq
 ```
 
-### `Ethereum && Polygon`
+## `Ethereum`
 
 ```sh
 0xcfdEf8165d722DC56a1FD06923de261B5B9d8626
 ```
+
+```sh
+0x1418610d617486610acD73a147facE7f89115A2a
+```
+
+## `Polygon`
 
 ```sh
 0x1418610d617486610acD73a147facE7f89115A2a
