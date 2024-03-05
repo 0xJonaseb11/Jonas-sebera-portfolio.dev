@@ -23,7 +23,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-sans text-2xl lg:text-3xl xl:text-3xl text-center lg:text-left text-ternary-dark dark:text-primary-light"
+					className="font-sans font-effect-fire-animation text-2xl lg:text-3xl xl:text-3xl text-center lg:text-left text-ternary-dark dark:text-primary-light"
 				>
 					Hi, I'm JONAS SEBERA
 				</motion.h1>

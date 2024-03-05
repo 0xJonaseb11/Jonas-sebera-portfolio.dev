@@ -40,7 +40,7 @@ const AppHeader = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className="sm:container sm:mx-auto shadow-md  rounded-2xl hover:shadow-lg"
+			className="sm:container sm:mx-auto shadow-sm rounded-2xl hover:shadow-sm"
 		>
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
 				{/* Header menu links and small screen hamburger menu */}
@@ -55,7 +55,7 @@ const AppHeader = () => {
 							) : (
 								<><img
 										src={logoLight}
-										className="w-10 rounded-full md:w-20"
+										className="w-10 rounded-full md:w-24"
 										alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-2'>JONAS SEBERA</p></>
 							)}
 						</Link>
@@ -101,7 +101,7 @@ const AppHeader = () => {
 				<div
 					className={
 						showMenu
-							? 'block m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none'
+							? 'block m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-sm sm:shadow-none'
 							: 'hidden'
 					}
 				>
@@ -162,14 +162,14 @@ const AppHeader = () => {
 					</Link>
 					<Link
 						to="/resume"
-						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0"
 						aria-label="Resume"
 					>
 						Resume
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-[#999] text-lg dark:text-[#999] hover:text-[#9999] dark:hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-[#999] text-lg dark:text-[#999] hover:text-[#9999] dark:hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0"
 						aria-label="Contact"
 					>
 						Contact

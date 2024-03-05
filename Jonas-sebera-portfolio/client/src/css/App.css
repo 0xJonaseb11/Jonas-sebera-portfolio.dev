@@ -1,10 +1,14 @@
+@https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple
+
+
+
 body {
 	font-family: 'GeneralSans-Variable';
 }
 
 /* Fonts */
 @font-face {
-	font-family: 'GeneralSans-Variable';
+	font-family: 'GeneralSans-Variable', ;
 	src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
 		url('../fonts/GeneralSans-Variable.woff') format('woff'),
 		url('../fonts/GeneralSans-Variable.ttf') format('truetype');
