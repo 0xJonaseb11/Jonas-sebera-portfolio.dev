@@ -1,11 +1,18 @@
 import React from 'react'
-import { BiBookReader } from 'react-icons/bi'
+import { BiBookReader, BiCertification } from 'react-icons/bi'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+
+
+import transition_Web3 from "./certificates/Transition_To_Web3.png";
+import metaschool from "./certificates/metaschool.png";
+// import hyperledger from "./certificates/hyperledger.png";
+// import decentrlized-apps from "./certificates/decentralized-apps.png";
+// import blockchain-specialization from "./certificates/blockchain-specialization.png";
 
 
 const Resume = () => {
@@ -43,7 +50,7 @@ const Resume = () => {
                                 <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>2022 — Present</span>
 
                                 <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium">
-                                    At Rwanda Coding Academy, I am currently studying software engineering and embedded systems Engineer. The academy provides a comprehensive curriculum and hands-on training to develop my skills in coding and programming. I am learning various programming languages, software development methodologies, and techniques to build robust and efficient software solutions.
+                                    At Rwanda Coding Academy, I am currently studying Software Engineering and Embedded systems. The academy provides a comprehensive curriculum and hands-on training to develop my skills in coding and programming. I am learning various programming languages, software development methodologies, and techniques to build robust and efficient software solutions.
                                 </p>
 
                             </li>
@@ -183,8 +190,186 @@ const Resume = () => {
                             
                         </TimelineContent>
                     </TimelineItem>
+                    
                 </Timeline>
 
+            </section>
+
+            <section>
+                <div className='flex items-center gap-[1rem] pl-3 mt-2'>
+                    <div className='p-[.5rem] shadow-lg dark:shadow-[none] bg-blue-500 text-white text-2xl rounded-lg mt-4'>
+                        <BiCertification />
+                    </div>
+                    <h3 className='text-2xl text-primary-dark dark:text-ternary-light font-bold font-general-medium mt-2'>Certification</h3>
+                </div>
+                <Timeline
+                    sx={{
+                        [`& .${timelineItemClasses.root}:before`]: {
+                            flex: 0,
+                            padding: 0,
+                        },
+                    }}
+                    className='mt-5'
+                >
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mb-2">
+
+                                <h4 className="h4 timeline-item-title text-lg text-primary-dark font-general-medium dark:text-ternary-light font-semibold">Transition to web3 Bootcamp</h4>
+
+                                <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>Rise in</span>
+
+                                <a href="https://www.risein.com/certificates/3219713e" target='_blank' rel="noreferrer">
+                                <img src={transition_Web3} alt="Rise in Transition To Web3 Bootcamp certificate" width={250} height={200}/>
+                                </a>
+                                <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium mt-2">
+                                    I spent 15 weeks learning and working on a couple of projects in a community-based ecosystem at Rise in Bootcamp.
+                                </p>
+
+
+                            </li>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mt-2">
+
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Web3 and Blockchain Leadership For Transformation</h4>
+
+                                <span className='text-lg font-general-medium text-blue-400 font-semibold'>Coursera</span>
+
+                                <a href="https://">
+                                    <img src="" alt="Blockchain and web3 leadership for transformation certificate" />
+                                </a>
+
+                                <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
+                                   I dedicated 5 weeks of my time studying how leadership and regulation work hand-in-hand to the success of blockchain and web3.
+                                </p>
+
+                            </li>
+                            </TimelineContent>
+                    </TimelineItem>
+                 
+
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mt-2">
+
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Web3 Application Development</h4>
+
+                                <span className='text-lg font-general-medium text-blue-400 font-semibold'>Metaschool</span>
+
+                                <a href="https://metaschool.so/profile/jonas-sebera" target='_blank' rel='noreferrer'>
+                                    <img src={metaschool} alt="Metaschool Web3 Application development NFT Certifications" width={250} height={200} />
+                                </a>
+
+                                <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
+                               I dedicated my time to Metaschool learning resources on learning about Web3.0 Application development
+                                </p>
+
+                            </li>
+                        </TimelineContent>
+                    </TimelineItem>
+
+
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mt-2">
+
+                                <h4 className="h4 font-general-medium timeline-item-title text-lg text-primary-dark dark:text-ternary-light font-semibold">Hyperledger Fabric Chaincode development using GoLang</h4>
+
+                                <span className='text-lg font-general-medium text-blue-400 font-semibold'>Udemy</span>
+
+                                <a href="https://" target='_blank' rel='noreferrer'>
+                                    <img src="" alt="Hyperledger chaincode development usind GoLang Certificate on Udemy" width={250} height={200} />
+                                </a>
+
+                                <p className="timeline-text font-general-medium  text-primary-dark dark:text-ternary-light font-medium">
+                               I spent over ten hours on a complete guide on a Hyperledger Chaincode development
+                                </p>
+
+                            </li>
+                            </TimelineContent>
+                    </TimelineItem>
+
+
+
+
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mt-2">
+
+                                <h4 className="h4 timeline-item-title text-lg text-primary-dark font-general-medium dark:text-ternary-light font-semibold">Blockchain specialization</h4>
+
+                                <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>Coursera</span>
+
+                                <a href="https://" target='_blank' rel='noreferrer'>
+                                    <img src='' alt="Blockchain specialization" width={250} height={200} />
+                                </a>
+
+
+                                <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium">
+                                I dedicated my time to Coursera learning resources on learning about Descentralized Apps - full dive
+
+                                </p>
+
+                            </li>
+                        </TimelineContent>
+                    </TimelineItem>
+
+
+
+
+                    <TimelineItem>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <li className="timeline-item flex flex-col gap-1 mt-2">
+
+                                <h4 className="h4 timeline-item-title text-lg text-primary-dark font-general-medium dark:text-ternary-light font-semibold">Decentralized Apps</h4>
+
+                                <span className='text-lg text-blue-500 dark:text-blue-400 font-semibold font-general-medium'>Coursera</span>
+
+                                <a href="https://" target='_blank' rel='noreferrer'>
+                                    <img src='' alt="Decentralized Apps Certificate" width={250} height={200} />
+                                </a>
+
+
+                                <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium">
+                                I dedicated my time to Coursera learning resources on learning about Descentralized Apps - full dive
+
+                                </p>
+
+                            </li>
+                        </TimelineContent>
+                    </TimelineItem>
+
+
+
+                </Timeline>
+                
             </section>
         </div>
     )
