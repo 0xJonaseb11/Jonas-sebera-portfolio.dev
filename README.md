@@ -1,8 +1,8 @@
-# My Portfolio
+# Jonas-sebera-portfolio.dev
 
-**Author : @Jaz-3-0**_
+_**Author : @Jaz-3-0**_
 
-[View site](https://jonas-sebera.vercel.app)
+[Tak a look at Jonas Sebera's Professional Portfolio](https://jonas-sebera.vercel.app)
 
 Sample-Preview
 
@@ -11,7 +11,7 @@ Sample-Preview
 This marks my overall skill set show case so far with my Software Engineering journey
 
 &#169; All rights reserved, Copy of this software and associated documentation files.
-&#169;copyright 2024 @Jaz-3-0
+&#169;copyright 2024 - Jonas Sebera
 
 Report anything at <sebejaz99@gmail.com>
 
