@@ -53,7 +53,7 @@ onContextMenu={(event) => {
 onMouseDown={(event) => {
 	if (event.button === 1) {
 		event.preventDefault();
-		window.alert("Middle click for this link is disabled")
+		window.alert("403 - Forbidden")
 	}
 }}
 >
