@@ -52,11 +52,11 @@ const Doings = () => {
       <h3 className="h3 service-title font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
         My delivery
       </h3>
-      <ul className="service-list mt-[3rem]">
+      <ul className="service-list mt-[2rem]">
         {services.map((service, index) => (
           <li
             key={index}
-            className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex gap-[2rem]"
+            className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex 3xsm:gap-[1rem] 3xsm:p-0"
           >
             <div className="service-icon-box">
               {/* <img

@@ -58,7 +58,7 @@ const AppBanner = () => {
 					<a
 						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-full mt-12 mb-6 sm:mb-3 text-lg p-4 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 2xsm:ml-2 2xsm:p-2 3xsm:-mb-10"
+						className="font-general-medium flex justify-center items-center w-full mt-12 mb-6 sm:mb-3 2sm:p-4 text-lg p-4 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 2xsm:ml-2 2xsm:p-2 3xsm:-mb-10"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
@@ -74,7 +74,7 @@ const AppBanner = () => {
 					view="Jonas-Sebera-Resume"
 					href='https://resume.io/r/Cg5tKp0Qh'
 					target="_blank"
-					className='font-general-medium flex justify-center items-center w-full sm:w-full md:w-full xsm:w-full 2xsm:w-full lg:w-full mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
+					className='font-general-medium flex justify-center items-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
 					aria-label='View Resume here' rel="noreferrer"
 				>
 					<FiArrowRight className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
