@@ -4,6 +4,7 @@ cache
 out
 build
 
+# tests
 .coverage
 .artifacts
 

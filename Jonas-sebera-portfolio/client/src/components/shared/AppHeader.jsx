@@ -51,12 +51,12 @@ const AppHeader = () => {
 								<><img
 									src={logoDark}
 									className="w-10 rounded-full md:w-24"
-									alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-2'>JONAS SEBERA</p></>
+									alt="Dark Logo" /><p className='text-[#999] text-base font-bold ml-2'>Jonas Sebera</p></>
 							) : (
 								<><img
 										src={logoLight}
 										className="w-10 rounded-full md:w-24"
-										alt="Dark Logo" /><p className='text-[#999] text-3xl font-bold ml-2'>JONAS SEBERA</p></>
+										alt="Dark Logo" /><p className='text-[#999] text-base font-bold ml-2'>Jonas Sebera</p></>
 							)}
 						</Link>
 					</div>
