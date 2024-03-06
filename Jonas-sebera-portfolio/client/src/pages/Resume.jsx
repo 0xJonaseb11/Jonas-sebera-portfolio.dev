@@ -329,7 +329,7 @@ const Resume = () => {
 
 
                                 <p className="timeline-text  text-primary-dark dark:text-ternary-light font-medium font-general-medium">
-                                I dedicated my time to Coursera learning resources on learning about Descentralized Apps - full dive
+                                I dedicated my time to Coursera learning resources on learning about Blockchain specialization
 
                                 </p>
 

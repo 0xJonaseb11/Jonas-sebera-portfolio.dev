@@ -41,7 +41,23 @@ const AppBanner = () => {
 
 					
 					{/* Typing svg */}
-<a href="https://git.io/typing-svg">
+<a href="https://git.io/typing-svg" 
+onClick={(event) => {
+	event.preventDefault();
+	// alert("Left click is disabled for this link")
+}}
+onContextMenu={(event) => {
+	event.preventDefault();
+	// window.alert("Right click context menu is disabled for this link")
+}}
+onMouseDown={(event) => {
+	if (event.button === 1) {
+		event.preventDefault();
+		window.alert("Middle click for this link is disabled")
+	}
+}}
+>
+
 		<img src="https://readme-typing-svg.demolab.com?font=&size=24&pause=1000&random=false&width=435&lines=Blockchain+Developer;Web3.0+Application+Developer;Smart+Contract+Developer;Smart+Contract+Auditor;Relational+Databases+Developer" alt="Typing SVG" />
 	</a>
 				</motion.p>
