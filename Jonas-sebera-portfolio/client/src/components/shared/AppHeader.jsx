@@ -3,8 +3,8 @@ import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
-import logoLight from '../../images/logo2.png';
-import logoDark from '../../images/logo2.png';
+import logoLight from '../../images/Logo.png';
+import logoDark from '../../images/Logo.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 
@@ -50,12 +50,12 @@ const AppHeader = () => {
 							{activeTheme === 'dark' ? (
 								<><img
 									src={logoDark}
-									className="w-10 rounded-full md:w-24"
+									className="w-10 rounded-full h-24 md:w-24"
 									alt="Dark Logo" /><p className='text-[#999] text-base font-bold ml-2'>Jonas Sebera</p></>
 							) : (
 								<><img
 										src={logoLight}
-										className="w-10 rounded-full md:w-24"
+										className="w-24 rounded-full h-24 md:w-24"
 										alt="Dark Logo" /><p className='text-[#999] text-base font-bold ml-2'>Jonas Sebera</p></>
 							)}
 						</Link>
