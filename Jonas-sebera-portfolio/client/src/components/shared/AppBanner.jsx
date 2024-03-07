@@ -1,6 +1,7 @@
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
-import { FiArrowRight } from 'react-icons/fi';
+// import { FiArrowRight } from 'react-icons/fi';
+import { FiEye } from 'react-icons/fi';
 
 
 const AppBanner = () => {
@@ -93,7 +94,7 @@ onMouseDown={(event) => {
 					className='font-general-medium flex justify-center items-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m-2 p-2'
 					aria-label='View Resume here' rel="noreferrer"
 				>
-					<FiArrowRight className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
+					<FiEye className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
 						<span className="text-sm sm:text-lg font-general-medium duration-100">
 							View Full Resume
 						</span>
