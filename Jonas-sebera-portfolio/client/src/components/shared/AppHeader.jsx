@@ -50,7 +50,7 @@ const AppHeader = () => {
 							{activeTheme === 'dark' ? (
 								<><img
 									src={logoDark}
-									className="w-10 rounded-full h-24 md:w-24"
+									className="w-24 rounded-full h-24 md:w-24"
 									alt="Dark Logo" /><p className='text-[#999] text-base font-bold ml-2'>Jonas Sebera</p></>
 							) : (
 								<><img
