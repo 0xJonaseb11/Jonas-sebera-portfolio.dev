@@ -48,7 +48,7 @@ const services = [
 
 const Doings = () => {
   return (
-    <section className="service text-primary-dark dark:text-ternary-light">
+    <section className="service text-primary-dark dark:text-ternary-light 2xsm:p-0 3xsm:p-0 3xsm:-ml-0.5 4xsm:-ml-1.5">
       <h3 className="h3 service-title font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
         My delivery
       </h3>
@@ -58,7 +58,7 @@ const Doings = () => {
             key={index}
             className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex 3xsm:gap-[1rem] 3xsm:p-0"
           >
-            <div className="service-icon-box">
+            <div className="service-icon-box ">
               {/* <img
                 src={service.icon}
                 alt={`${service.title} icon`}

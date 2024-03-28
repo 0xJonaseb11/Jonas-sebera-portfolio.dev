@@ -7,6 +7,7 @@ import Pinterest from "../../images/Pinterest.jpeg";
 import Vimeo from "../../images/Vimeo.png";
 import Behance from '../../images/Behance.png';
 import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi';
+
 import AppFooterCopyright from './AppFooterCopyright';
 
 const CopyAddressButton = ({ walletAddress }) => {
@@ -26,7 +27,7 @@ const CopyAddressButton = ({ walletAddress }) => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center 2xsm:p-0 3xsm:p-3 4xsm:p-1.5">
       <span ref={addressRef} className="break-all mr-2">
         {walletAddress}
       </span>
@@ -45,78 +46,81 @@ const WalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
 const socialLinks = [
   {
     id: 1,
-    icon: <FiGithub className="m-2" />,
+    icon: <FiGithub className="w-7 rounded-full" />,
     url: 'https://github.com/Jaz-3-0',
   },
   {
     id: 2,
-    icon: <img src={Discord} alt="Discord Logo" width={45} className="m-2" />,
+    icon: <img src={Discord} alt="Discord Logo" width={45} className="w-7 rounded-full" />,
     url: 'https://discord.com/users/1065213095431131218',
   },
   {
     id: 3,
-    icon: <FiLinkedin className="m-2" />,
+    icon: <FiLinkedin className="w-7 rounded-full" />,
     url: 'https://www.linkedin.com/in/sebera-jonas/',
   },
   {
     id: 4,
-    icon: <FiFacebook className="m-2" />,
+    icon: <FiFacebook className="w-7 rounded-full" />,
     url: 'https://www.facebook.com/jonaswalker.deborde/',
   },
   {
     id: 5,
-    icon: <FiInstagram className="m-2" />,
+    icon: <FiInstagram className="w-7 rounded-full" />,
     url: 'https://www.instagram.com/sebe_j_az99',
   },
   {
     id: 6,
-    icon: <img src={Medium} alt="Medium Logo" width={50} className="m-2" />,
+    icon: <img src={Medium} alt="Medium Logo" width={50} className="w-7 rounded-full" />,
     url: 'https://medium.com/@sebejaz99',
   },
   {
     id: 7,
-    icon: <img src={Quora} alt="Quora logo" width={60} className="m-2" />,
+    icon: <img src={Quora} alt="Quora logo" width={60} className="w-7 rounded-full" />,
     url: 'https://www.quora.com/profile/Jaz-1378',
   },
   {
     id: 8,
-    icon: <img src={Pinterest} alt='Pinterest logo' width={60} className='m-2'/>,
+    icon: <img src={Pinterest} alt='Pinterest logo' width={60} className='w-7 rounded-full'/>,
     url: 'https://www.pinterest.com/jonassebera/',
   },
   {
     id: 9,
-    icon: <img src={Vimeo} alt='Vimeo logo' width={60} className='m-2' />,
+    icon: <img src={Vimeo} alt='Vimeo logo' width={60} className='w-7 rounded-full' />,
     url: 'https://vimeo.com/user214096081',
   },
   {
     id:10,
-    icon: <img src={Behance} alt='Behance logo' width={60} className='m-2' />,
+    icon: <img src={Behance} alt='Behance logo' width={60} className='w-7 rounded-full' />,
     url: 'https://www.behance.net/jazjaz5',
   },
   {
-    id: 8,
-    icon: <img src={Dev} alt="Dev Community logo" width={50} className="m-2" />,
+    id: 11,
+    icon: <img src={Dev} alt="Dev Community logo" width={50} className="w-7 rounded-full" />,
     url: 'https://dev.to/jonassebera',
   },
 ];
 
 const AppFooter = () => {
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto mt-32 ">
       {/* Footer social links */}
       <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
         <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-10">
+        <span className='p-4'>
+        </span>
+
           Let's go social
         </p>
-        <ul className="grid grid-cols-2 gap-3 sm:gap-8 md:grid md:grid-cols-4 ml-2">
+        <ul className="grid grid-cols-3 gap-3 sm:gap-4 sm:md:xmd:lg:xl:2xl:3xl:grid-cols-11 2xsm:3xsm:4xsm:grid-cols-6 ">
           {socialLinks.map((link) => (
             <a
               href={link.url}
               target="__blank"
               key={link.id}
-              className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-xl bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+              className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-200 cursor-pointer rounded-full text-center  dark:hover:bg-gray-800 hover:bg-gray-200 shadow-sm p-2 duration-300"
             >
-              <i className="text-xl sm:text-2xl md:text-4xl">
+              <i className="w-full text-2xl sm:text-xl md:text-xl xsm:text-xl 2xsm:text-xl 3xsm:text-xl 4xsm:text-base">
                 {link.icon}
               </i>
             </a>

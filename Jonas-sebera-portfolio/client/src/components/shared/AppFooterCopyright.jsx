@@ -6,9 +6,9 @@ function AppFooterCopyright() {
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
 				<Link to="/" className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">
-					Jonas Sebera
+					Jonas Sebera.
 				</Link>
-				.
+				
 				<span className="text-secondary-dark dark:text-secondary-light font-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
 					All Rights Reserved
