@@ -48,7 +48,7 @@ const services = [
 
 const Doings = () => {
   return (
-    <section className="service text-primary-dark dark:text-ternary-light 2xsm:p-0 3xsm:p-0 3xsm:-ml-0.5 4xsm:-ml-1.5">
+    <section className="service text-primary-dark dark:text-ternary-light 2xsm:p-0 3xsm:4xsm:p-0 3xsm:4xsm:-ml-0.5">
       <h3 className="h3 service-title font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
         My delivery
       </h3>
@@ -56,7 +56,7 @@ const Doings = () => {
         {services.map((service, index) => (
           <li
             key={index}
-            className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex 3xsm:gap-[1rem] 3xsm:p-0"
+            className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex 3xsm:gap-[1rem] 3xsm:p-0 4xsm:gap-2"
           >
             <div className="service-icon-box ">
               {/* <img
@@ -77,7 +77,7 @@ const Doings = () => {
               <h4 className="h4 service-item-title font-semibold text-xl text-ternary-dark dark:text-ternary-light">
                 {service.title}
               </h4>
-              <p className="service-item-text text-lg font-medium">{service.description}</p>
+              <p className="service-item-text text-lg font-medium ">{service.description}</p>
             </div>
           </li>
         ))}

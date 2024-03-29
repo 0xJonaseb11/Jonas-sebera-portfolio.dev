@@ -14,7 +14,7 @@ const AppBanner = () => {
 			className="flex flex-col items-center lg:flex-row mt-12 md:mt-2 ml-2"
 		>
 
-			<div className="w-full md:w-1/3 text-left 2xsm:p-0 3xsm:p-0 4xsm:p-0">
+			<div className="flex flex-col w-full md:w-1/3 text-left 2xsm:p-0 3xsm:p-0 4xsm:p-0">
 				
 				
 				<motion.h1
@@ -25,7 +25,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-monospace text-base lg:text-3xl xl:text-3xl text-center lg:text-left text-ternary-dark dark:text-primary-light"
+					className="3xsm:4xsm:flex-col font-monospace text-base lg:text-3xl xl:text-3xl text-center lg:text-left text-ternary-dark dark:text-primary-light"
 				>
 					Hi there👋, I'm <strong>Jonas Sebera</strong>
 				</motion.h1>
@@ -37,7 +37,7 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.2,
 					}}
-					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center lg:text-left leading-normal text-gray-500 dark:text-gray-500"
+					className="flex flex-col font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center lg:text-left leading-normal text-gray-500 dark:text-gray-500"
 				>
 
 					
@@ -75,10 +75,10 @@ onMouseDown={(e) => {
 					<a
 						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-full mt-12 sm:mb-3 2sm:p-4 text-lg p-4 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 2xsm:ml-0 2xsm:p-2 3xsm:-mb-10 mb-6 4xsm:p-1"
+						className=" flex flex-col font-general-medium justify-center items-center text-center w-full mt-12 sm:mb-3 2sm:p-4 text-lg p-0 sm:py-2 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 2xsm:ml-0 2xsm:p-2 3xsm:-mb-10 mb-6 4xsm:p-0"
 						aria-label="Download Resume"
 					>
-						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+						<FiArrowDownCircle className="m-1 sm:mr-3 h-5 w-5 sm:w-6 sm:h-6 duration-100 justify-center items-center text-center 4xsm:text-center"></FiArrowDownCircle>
 						<span className="text-sm sm:text-lg font-general-medium duration-100 mb-2">
 							Download Quick Resume
 						</span>
@@ -92,10 +92,10 @@ onMouseDown={(e) => {
 					view="Jonas-Sebera-Resume"
 					href='https://resume.io/r/Cg5tKp0Qh'
 					target="_blank"
-					className='font-general-medium flex justify-center items-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m p-2'
+					className='flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 m p-2'
 					aria-label='View Resume here' rel="noreferrer"
 				>
-					<FiEye className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100" />
+					<FiEye className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100 items-center text-center" />
 						<span className="text-sm sm:text-lg font-general-medium duration-100 mb-2">
 							View Full Resume
 						</span>

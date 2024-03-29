@@ -92,7 +92,7 @@ const Testimonials = () => {
     <>
       <section className="pt-5 pb-5 lg:pt-[12px] lg:pb-[12px] relative my-10">
         <section>
-          <h4 className="mb-8 font-general-medium text-2xl sm:text-4xl text-ternary-dark dark:text-ternary-light md:text-center">
+          <h4 className="mb-8 font-general-medium text-2xl sm:text-4xl text-ternary-dark dark:text-ternary-light md:text-center 3xsm:4xsm:text-xl">
             Testimonials
           </h4>
         </section>

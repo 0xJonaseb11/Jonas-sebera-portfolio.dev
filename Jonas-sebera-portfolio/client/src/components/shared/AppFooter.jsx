@@ -103,13 +103,11 @@ const socialLinks = [
 
 const AppFooter = () => {
   return (
-    <div className="container mx-auto mt-32 ">
+    <div className="container mx-auto mt-32">
       {/* Footer social links */}
       <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
         <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-10">
-        <span className='p-4'>
-        </span>
-
+      
           Let's go social
         </p>
         <ul className="grid grid-cols-3 gap-3 sm:gap-4 sm:md:xmd:lg:xl:2xl:3xl:grid-cols-11 2xsm:3xsm:4xsm:grid-cols-6 ">
