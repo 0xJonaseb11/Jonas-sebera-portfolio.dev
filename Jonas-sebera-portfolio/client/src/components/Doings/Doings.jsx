@@ -48,17 +48,17 @@ const services = [
 
 const Doings = () => {
   return (
-    <section className="service text-primary-dark dark:text-ternary-light 2xsm:p-0 3xsm:4xsm:p-0 3xsm:4xsm:-ml-0.5">
+    <section className="service text-primary-dark dark:text-ternary-light 2xsm:p-0 3xsm:4xsm:p-1 3xsm:4xsm:-ml-0 3xsm:4xsm:-mr-0 5xsm:py-1 5xsm:-mr:-0.5 5xsm:-ml-0.5">
       <h3 className="h3 service-title font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
         My delivery
       </h3>
-      <ul className="service-list mt-[2rem]">
+      <ul className="service-list mt-[2rem] -ml-1.5 -mr-1.5  .5xsm:-mr-0.5  ">
         {services.map((service, index) => (
           <li
             key={index}
             className="service-item bg-secondary-light dark:bg-ternary-dark !shadow-lg hover:!shadow-xl flex 3xsm:gap-[1rem] 3xsm:p-0 4xsm:gap-2"
           >
-            <div className="service-icon-box ">
+            <div className="service-icon-box py-1">
               {/* <img
                 src={service.icon}
                 alt={`${service.title} icon`}
@@ -69,11 +69,11 @@ const Doings = () => {
                 src={service.icon}
                 effect="blur"
                 width="40"
-                className="min-w-[40px]"
+                className="min-w-[40px] m-0 p-1.5"
                 alt={`${service.title} icon`}
               />
             </div>
-            <div className="service-content-box !text-start">
+            <div className="service-content-box !text-start py-2">
               <h4 className="h4 service-item-title font-semibold text-xl text-ternary-dark dark:text-ternary-light">
                 {service.title}
               </h4>

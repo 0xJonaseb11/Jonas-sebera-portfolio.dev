@@ -75,10 +75,10 @@ onMouseDown={(e) => {
 					<a
 						download="Jonas-Sebera-Resume.pdf"
 						href="/files/Jonas-Sebera-Resume.pdf"
-						className=" flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2"
+						className=" flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 4xsm:-ml-2 -ml-1.5"
 						aria-label="Download Resume"
 					>
-						<FiArrowDownCircle className="mr-2 m-1 sm:mr-3 h-5 w-5 sm:w-6 sm:h-6 duration-100 justify-center items-center text-center 4xsm:text-center"></FiArrowDownCircle>
+						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100 items-center text-center"></FiArrowDownCircle>
 						<span className="text-sm sm:text-lg font-general-medium duration-100 mb-0">
 							Download Quick Resume
 						</span>
@@ -92,7 +92,7 @@ onMouseDown={(e) => {
 					view="Jonas-Sebera-Resume"
 					href='https://resume.io/r/Cg5tKp0Qh'
 					target="_blank"
-					className='flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2'
+					className='flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 -ml-0.5'
 					aria-label='View Resume here' rel="noreferrer"
 				>
 					<FiEye className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100 items-center text-center" />
