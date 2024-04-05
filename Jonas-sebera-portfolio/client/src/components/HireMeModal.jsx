@@ -2,6 +2,12 @@ import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 
+// import FormInput from './reusable/FormInput';
+// import { useRef, useState } from 'react';
+// import emailjs from '@emailjs/browser';
+// import CircularProgress from '@mui/material/CircularProgress';
+// import { ToastContainer, toast } from "react-toastify";
+
 const selectOptions = [
 	'Web2.0 Application',
 	'Web3.0 Application',
@@ -17,7 +23,39 @@ const selectOptions = [
 	'Just a Talk'
 ];
 
+
+// const [isLoading, setIsLoading] = useState(false);
+// const onError = (error) =>
+// 	toast.error(error, {
+// 		position: "top-center",
+// 	});
+
+// const onSuccess = (success) =>
+// 	toast.success(success, {
+// 		position: "top-center",
+// 	});
+
+// const form = useRef();
+
+// const sendEmail = (e) => {
+// 	e.preventDefault();
+// 	setIsLoading(true);
+// 	emailjs.sendForm('service_mk44hmb', 'template_sb5r0yg', form.current, 'VrfkLl3nzSOSIU9MB')
+// 		.then((result) => {
+// 			console.log(result.text);
+// 			setIsLoading(false);
+// 			onSuccess("Message sent to Jonas Successfully",result);
+// 			e.target.reset()
+// 		}, (error) => {
+// 			console.log(error.text);
+// 			setIsLoading(false);
+// 			onError("Message not sent", error)
+// 			console.log("Message not sent!",error)
+// 		});
+			
+
 const HireMeModal = ({ onClose, onRequest }) => {
+	
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -49,6 +87,10 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									e.preventDefault();
 								}}
 								className="max-w-xl m-4 text-left"
+
+								// onSubmit={sendEmail}
+					            // ref={form}
+					            // className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 							>
 								<div className="">
 									<input
@@ -56,7 +98,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										id="name"
 										name="name"
 										type="text"
-										required=""
+										required
 										placeholder="Name"
 										aria-label="Name"
 									/>
@@ -65,9 +107,9 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									<input
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="email"
-										name=""
-										type="text"
-										required=""
+										name="email"
+										type="email"
+										required
 										placeholder="Email address"
 										aria-label="Email address"
 									/>
@@ -78,7 +120,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										id="subject"
 										name="subject"
 										type="text"
-										required=""
+										required
 										aria-label="Project Category"
 									>
 										{selectOptions.map((option) => (
@@ -97,10 +139,11 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 										id="message"
 										name="message"
-										cols="14"
-										rows="6"
+										cols="15"
+										rows="7"
 										aria-label="Details"
 										placeholder="Project description"
+										required
 									></textarea>
 								</div>
 
@@ -122,7 +165,12 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										<Button title="Send Request" />
 									</span>
 								</div>
-							</form>
+								{/* <div className="font-general-medium flex items-center justify-center min-w-fit w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-[#999] hover:bg-[#9999] focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+						{!isLoading && <button type='submit'>Send Message</button>}
+						{isLoading && <CircularProgress color='inherit' size={'1.5rem'} />}
+					</div> */}
+						</form>
+						{/* <ToastContainer theme={"light"} /> */}
 						</div>
 						<div className="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right">
 							<span
@@ -143,6 +191,6 @@ const HireMeModal = ({ onClose, onRequest }) => {
 			</main>
 		</motion.div>
 	);
-};
+   };
 
 export default HireMeModal;
