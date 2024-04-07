@@ -1,9 +1,15 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-
-const SingleTestimonial = ({ image, reviewAlt, details, name, position, rating }) => {
+const SingleTestimonial = ({
+  image,
+  reviewAlt,
+  details,
+  name,
+  position,
+  rating,
+}) => {
   const stars = Array.from({ length: rating }, (_, i) => (
     <FaStar key={i} className="text-yellow-500" />
   ));
@@ -17,7 +23,8 @@ const SingleTestimonial = ({ image, reviewAlt, details, name, position, rating }
             alt={name}
             effect="blur"
             className="w-12 h-12 rounded-full mr-4"
-            src={image} />
+            src={image}
+          />
           <div className="text-sm">
             <p className="text-gray-900 dark:text-gray-200 leading-none text-base font-semibold">
               {name}
@@ -31,7 +38,9 @@ const SingleTestimonial = ({ image, reviewAlt, details, name, position, rating }
           <div className="text-gray-900 dark:text-gray-200 font-bold text-xl mb-2">
             {reviewAlt}
           </div>
-          <p className="text-gray-700 dark:text-gray-300 text-base">{details}</p>
+          <p className="text-gray-700 dark:text-gray-300 text-base">
+            {details}
+          </p>
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center">

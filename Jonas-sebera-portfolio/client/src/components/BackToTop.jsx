@@ -1,13 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const BackToTop = () => {
-	const userScrollPosition = 0;
+  const userScrollPosition = 0;
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, [userScrollPosition]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [userScrollPosition]);
 
-	return <div></div>;
+  return <div></div>;
 };
 
 export default BackToTop;

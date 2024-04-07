@@ -1,48 +1,52 @@
-import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 // Import icons
-import IconWeb from '../../images/Doings/icon-dev.svg';
-import IconDesign from '../../images/Doings/icon-design.svg';
+import IconWeb from "../../images/Doings/icon-dev.svg";
+import IconDesign from "../../images/Doings/icon-design.svg";
 import Web3Icon from "../../images/Doings/web3Icon.png";
 import Solidity from "../../images/Doings/Solidity.png";
 // import solidity from "../../images/Doings/solidity.png";
 import blockchain from "../../images/Doings/blockchain.png";
 import database from "../../images/Doings/database.jpeg";
 
-
-
 // Define an array of services
 const services = [
   {
     icon: IconWeb,
-    title: 'Web2.0 Application Development',
-    description: 'High-quality development of web2.0 based applications at professional level.',
+    title: "Web2.0 Application Development",
+    description:
+      "High-quality development of web2.0 based applications at professional level.",
   },
   {
     icon: Web3Icon,
-    title: 'Web3.0 Application Development',
-    description: 'Professional development of blockchain and smart contract-based applications.',
+    title: "Web3.0 Application Development",
+    description:
+      "Professional development of blockchain and smart contract-based applications.",
   },
   {
     icon: IconDesign,
-    title: 'Web design',
-    description: 'The most modern and high-quality design made at a professional level.',
+    title: "Web design",
+    description:
+      "The most modern and high-quality design made at a professional level.",
   },
   {
     icon: database,
-    title: 'Relational Database Development',
-    description: 'Unlock endless tech opportunities by getting access to Super Optimized Databases.',
+    title: "Relational Database Development",
+    description:
+      "Unlock endless tech opportunities by getting access to Super Optimized Databases.",
   },
   {
     icon: Solidity,
-    title: 'Solidity Smart Contract Development.',
-    description: 'Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.',
+    title: "Solidity Smart Contract Development.",
+    description:
+      "Unlock endless tech opportunities With super developed and tested smart contracts for advanced blockchain solutions.",
   },
   {
     icon: blockchain,
-    title: 'Blockchain and Dapps Development.',
-    description: 'Unlock endless tech opportunities With super developed and tested dapps and blockchain solutions.',
+    title: "Blockchain and Dapps Development.",
+    description:
+      "Unlock endless tech opportunities With super developed and tested dapps and blockchain solutions.",
   },
 ];
 
@@ -77,7 +81,9 @@ const Doings = () => {
               <h4 className="h4 service-item-title font-semibold text-xl text-ternary-dark dark:text-ternary-light">
                 {service.title}
               </h4>
-              <p className="service-item-text text-lg font-medium ">{service.description}</p>
+              <p className="service-item-text text-lg font-medium ">
+                {service.description}
+              </p>
             </div>
           </li>
         ))}

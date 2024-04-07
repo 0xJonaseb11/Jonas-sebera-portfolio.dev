@@ -1,28 +1,28 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import Discord from "../../images/discord.jpeg";
 import Dev from "../../images/Dev.png";
 import Medium from "../../images/Medium.png";
 import Quora from "../../images/quora.jpeg";
 import Pinterest from "../../images/Pinterest.jpeg";
 import Vimeo from "../../images/Vimeo.png";
-import Behance from '../../images/Behance.png';
-import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi';
+import Behance from "../../images/Behance.png";
+import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
 
-import AppFooterCopyright from './AppFooterCopyright';
+import AppFooterCopyright from "./AppFooterCopyright";
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
 
   const handleCopyClick = () => {
     if (addressRef.current) {
-      const textArea = document.createElement('textarea');
+      const textArea = document.createElement("textarea");
       textArea.value = walletAddress;
       document.body.appendChild(textArea);
       textArea.select();
-      document.execCommand('copy');
+      document.execCommand("copy");
       document.body.removeChild(textArea);
 
-      window.alert('Address copied to clipboard');
+      window.alert("Address copied to clipboard");
     }
   };
 
@@ -47,57 +47,106 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGithub className="w-7 rounded-full" />,
-    url: 'https://github.com/Jaz-3-0',
+    url: "https://github.com/Jaz-3-0",
   },
   {
     id: 2,
-    icon: <img src={Discord} alt="Discord Logo" width={45} className="w-7 rounded-full" />,
-    url: 'https://discord.com/users/1065213095431131218',
+    icon: (
+      <img
+        src={Discord}
+        alt="Discord Logo"
+        width={45}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://discord.com/users/1065213095431131218",
   },
   {
     id: 3,
     icon: <FiLinkedin className="w-7 rounded-full" />,
-    url: 'https://www.linkedin.com/in/sebera-jonas/',
+    url: "https://www.linkedin.com/in/sebera-jonas/",
   },
   {
     id: 4,
     icon: <FiFacebook className="w-7 rounded-full" />,
-    url: 'https://www.facebook.com/jonaswalker.deborde/',
+    url: "https://www.facebook.com/jonaswalker.deborde/",
   },
   {
     id: 5,
     icon: <FiInstagram className="w-7 rounded-full" />,
-    url: 'https://www.instagram.com/sebe_j_az99',
+    url: "https://www.instagram.com/sebe_j_az99",
   },
   {
     id: 6,
-    icon: <img src={Medium} alt="Medium Logo" width={50} className="w-7 rounded-full" />,
-    url: 'https://medium.com/@sebejaz99',
+    icon: (
+      <img
+        src={Medium}
+        alt="Medium Logo"
+        width={50}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://medium.com/@sebejaz99",
   },
   {
     id: 7,
-    icon: <img src={Quora} alt="Quora logo" width={60} className="w-7 rounded-full" />,
-    url: 'https://www.quora.com/profile/Jaz-1378',
+    icon: (
+      <img
+        src={Quora}
+        alt="Quora logo"
+        width={60}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://www.quora.com/profile/Jaz-1378",
   },
   {
     id: 8,
-    icon: <img src={Pinterest} alt='Pinterest logo' width={60} className='w-7 rounded-full'/>,
-    url: 'https://www.pinterest.com/jonassebera/',
+    icon: (
+      <img
+        src={Pinterest}
+        alt="Pinterest logo"
+        width={60}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://www.pinterest.com/jonassebera/",
   },
   {
     id: 9,
-    icon: <img src={Vimeo} alt='Vimeo logo' width={60} className='w-7 rounded-full' />,
-    url: 'https://vimeo.com/user214096081',
+    icon: (
+      <img
+        src={Vimeo}
+        alt="Vimeo logo"
+        width={60}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://vimeo.com/user214096081",
   },
   {
-    id:10,
-    icon: <img src={Behance} alt='Behance logo' width={60} className='w-7 rounded-full' />,
-    url: 'https://www.behance.net/jazjaz5',
+    id: 10,
+    icon: (
+      <img
+        src={Behance}
+        alt="Behance logo"
+        width={60}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://www.behance.net/jazjaz5",
   },
   {
     id: 11,
-    icon: <img src={Dev} alt="Dev Community logo" width={50} className="w-7 rounded-full" />,
-    url: 'https://dev.to/jonassebera',
+    icon: (
+      <img
+        src={Dev}
+        alt="Dev Community logo"
+        width={50}
+        className="w-7 rounded-full"
+      />
+    ),
+    url: "https://dev.to/jonassebera",
   },
 ];
 
@@ -107,7 +156,6 @@ const AppFooter = () => {
       {/* Footer social links */}
       <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
         <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-10">
-      
           Let's go social
         </p>
         <ul className="grid grid-cols-3 gap-3 sm:gap-4 sm:md:xmd:lg:xl:2xl:3xl:grid-cols-11 2xsm:3xsm:4xsm:grid-cols-6 ">
@@ -125,13 +173,21 @@ const AppFooter = () => {
           ))}
         </ul>
 
-        <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 bg-gray-100 hover:shadow-2xl border-none items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-xl font-general-medium text-ternary-dark dark:text-ternary-light" >
+        <div className="w-full mt-10 flex flex-col dark:bg-gray-800 opacity-90 bg-gray-100 hover:shadow-2xl border-none items-center p-4 md:p-6 lg:p-12 xl:p-8 md:w-9/12 rounded-xl font-general-medium text-ternary-dark dark:text-ternary-light">
           <p className="font-semibold font-sans text-indigo-400 mb-2 md:text-xl lg:text-xl shadow-sm sm:text-base xsm:text-base 2xsm:text-base 3xsm:text-base">
-            A quick reminder, we are not alergic to coffee please!! But real <code className="dark:text-white text-xl text-indigo-600 ">
-              Eth</code> not <code className=' text-indigo-600 text-xl dark:text-white ' >Faucets.</code>
+            A quick reminder, we are not alergic to coffee please!! But real{" "}
+            <code className="dark:text-white text-xl text-indigo-600 ">
+              Eth
+            </code>{" "}
+            not{" "}
+            <code className=" text-indigo-600 text-xl dark:text-white ">
+              Faucets.
+            </code>
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
-            <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">My wallet address:</p>
+            <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">
+              My wallet address:
+            </p>
             <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
               <CopyAddressButton
                 walletAddress={WalletAddress}
