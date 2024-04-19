@@ -122,4 +122,6 @@ Community Impact Guidelines were inspired by Mozilla’s code of conduct enforce
 
 For answers to common questions about this code of conduct, see the FAQ at <https://www.contributor-covenant.org/faq>. Translations are available at <https://www.contributor-covenant.org/translations>.
 
-@Jaz-3-0
+---------------------------------
+
+@0xJonaseb11

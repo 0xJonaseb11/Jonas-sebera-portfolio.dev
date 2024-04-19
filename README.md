@@ -1,6 +1,6 @@
 # Jonas-sebera-portfolio.dev
 
-_**Author : @Jaz-3-0**_
+_**Author : @0xJonaseb11**_
 
 [Tak a look at Jonas Sebera's Professional Portfolio](https://jonas-sebera.vercel.app)
 
@@ -41,4 +41,4 @@ Report anything at <sebejaz99@gmail.com>
 
 --------------------
 
-@Jaz-3-0
+@0xJonaseb11
