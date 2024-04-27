@@ -6,7 +6,7 @@ _**Author : @0xJonaseb11**_
 
 Sample-Preview
 
-![portfolio-sample-preview](localhost_3000.png)
+![Portfolio-sample-preview](jonas-sebera.vercel.app.png)
 
 This marks my overall skill set show case so far with my Software Engineering journey
 
