@@ -6,9 +6,12 @@ import Quora from "../../images/quora.jpeg";
 import Pinterest from "../../images/Pinterest.jpeg";
 import Vimeo from "../../images/Vimeo.png";
 import Behance from "../../images/Behance.png";
+import hashnode from "../../images/hashnode.png";
 import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
 
+
 import AppFooterCopyright from "./AppFooterCopyright";
+import { url } from "inspector";
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
@@ -147,6 +150,18 @@ const socialLinks = [
       />
     ),
     url: "https://dev.to/jonassebera",
+  },
+  {
+    id: 12,
+    icon: (
+      <img
+      src={hashnode}
+      alt=""
+      width={50}
+      className="w-7 rounded-full"
+      />
+    ),
+    url: "https://jonas-sebera.hashnode.dev/"
   },
 ];
 
