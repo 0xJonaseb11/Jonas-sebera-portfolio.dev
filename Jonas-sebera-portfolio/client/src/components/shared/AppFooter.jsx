@@ -11,7 +11,6 @@ import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
 
 
 import AppFooterCopyright from "./AppFooterCopyright";
-import { url } from "inspector";
 
 const CopyAddressButton = ({ walletAddress }) => {
   const addressRef = useRef(null);
