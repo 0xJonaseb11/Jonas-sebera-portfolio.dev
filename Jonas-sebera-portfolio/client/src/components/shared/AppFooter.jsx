@@ -7,7 +7,8 @@ import Pinterest from "../../images/Pinterest.jpeg";
 import Vimeo from "../../images/Vimeo.png";
 import Behance from "../../images/Behance.png";
 import hashnode from "../../images/hashnode.png";
-import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
+import X from "../../images/X.png"
+import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 
 import AppFooterCopyright from "./AppFooterCopyright";
@@ -70,8 +71,13 @@ const socialLinks = [
   },
   {
     id: 4,
-    icon: <FiFacebook className="w-7 rounded-full" />,
-    url: "https://www.facebook.com/jonaswalker.deborde/",
+    icon: (
+    <img src={X} 
+    alt="X account" 
+    width={50}
+    className="w-7 rounded-full" />
+    ),
+    url: "https://twitter.com/0xJonaseb11",
   },
   {
     id: 5,
