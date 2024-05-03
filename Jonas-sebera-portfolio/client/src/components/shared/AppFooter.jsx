@@ -156,7 +156,7 @@ const socialLinks = [
     icon: (
       <img
       src={hashnode}
-      alt=""
+      alt="hashnode dev community"
       width={50}
       className="w-7 rounded-full"
       />
