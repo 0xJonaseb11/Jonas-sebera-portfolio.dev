@@ -1,5 +1,8 @@
 .hintrc
 .env
+
+# compiler files
+
 cache
 out
 build
