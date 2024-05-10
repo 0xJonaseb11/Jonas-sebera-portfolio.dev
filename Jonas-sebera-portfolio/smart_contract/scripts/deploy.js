@@ -5,7 +5,7 @@ const main = async () => {
 
 
 
-  const Welcome = await hre.ethers.getContractFactory("Welcome");
+  const Welcome = await ethers.getContractFactory("Welcome");
   const welcome = Welcome.deploy();
 
   console.log("Deploying Welcome contract.....");
@@ -23,6 +23,8 @@ const runMain = async() => {
   } catch (err) {
     console.error(err);
     process.exit(1);
+  } finally {
+    console.log("End of task execution!!");
   }
 }
 
