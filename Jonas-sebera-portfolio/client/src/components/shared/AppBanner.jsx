@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 // import { FiArrowRight } from 'react-icons/fi';
 import { FiEye } from "react-icons/fi";
 
+import Welcome from "../contract/ConnectWallet";
+
 const AppBanner = () => {
   return (
     <motion.section
@@ -103,14 +105,15 @@ const AppBanner = () => {
         transition={{ ease: "easeInOut", duration: 2, delay: 1 }}
         className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
       >
-        <video
+        {/* <video
           title="App-Home-Banner-Image-Web3.0-Illustration"
           className="w-11/12  m-2 dark:rounded-full rounded-full border-0"
           src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/blockchain-technology-4423752-3675973.mp4"
           autoPlay
           loop
           muted
-        ></video>
+        ></video> */}
+        <Welcome />
       </motion.div>
     </motion.section>
   );
