@@ -1,48 +1,77 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Web3 from "web3";
 import WelcomeContract from "./Welcome.json";
 
-const contractAddress = "0xc9178Cc519Ed5815Fd787e4C27D3fd63c747A0AA";
-const contractABI = WelcomeContract.abi;
-
-const Welcome = () => {
+function Welcome() {
+  const [web3, setWeb3] = useState(null);
+  const [contract, setContract] = useState(null);
   const [message, setMessage] = useState("");
+  const [newMessage, setNewMessage] = useState("");
+  const [account, setAccount] = useState("");
 
   useEffect(() => {
-    const fetchData = async () => {
-      // init web3
+    const initWeb3 = async () => {
       if (window.ethereum) {
-        window.web3 = new Web3(window.ethereum);
-        await window.ethereum.enable();
-      } else if (window.web3) {
-        window.web3 = new Web3(window.web3.currentProvider);
+        const web3Instance = new Web3(window.ethereum);
+        try {
+          await window.ethereum.enable();
+          setWeb3(web3Instance);
+          const accounts = await web3Instance.eth.getAccounts();
+          setAccount(accounts[0]);
+          const networkId = await web3Instance.eth.net.getId();
+          const deployedNetwork = WelcomeContract.networks[networkId];
+          const contractInstance = new web3Instance.eth.Contract(
+            WelcomeContract.abi,
+            deployedNetwork && deployedNetwork.address
+          );
+          setContract(contractInstance);
+          const message = await contractInstance.methods.getMessage().call();
+          setMessage(message);
+        } catch (error) {
+          console.error("Error connecting to MetaMask or getting account information:", error);
+        }
       } else {
-        console.log("Non-ethereum browser detected. Consider installing MetaMask");
-        window.alert("Non-ethereum browser detected. Please install MetaMask!!");
-        return;
-      }
-
-      // initialize contract instance
-      const contract = new window.web3.eth.Contract(contractABI, contractAddress);
-
-      // call getMessage function
-      try {
-        const fetchedMessage = await contract.methods.getMessage().call();
-        setMessage(fetchedMessage);
-      } catch (err) {
-        console.error("Error fetching message", err);
+        console.error("MetaMask not detected.");
       }
     };
 
-    fetchData();
+    initWeb3();
   }, []);
 
+  const fetchMessage = async () => {
+    if (!contract) return;
+    try {
+      const message = await contract.methods.getMessage().call();
+      setMessage(message);
+    } catch (error) {
+      console.error("Error fetching message:", error);
+    }
+  };
+
+  const handleSetMessage = async () => {
+    if (!contract) return;
+    try {
+      await contract.methods.setGreeting(newMessage).send({ from: account });
+      fetchMessage(); // Fetch the updated message after setting it
+    } catch (error) {
+      console.error("Error setting message:", error);
+    }
+  };
+
+  const handleInputChange = (event) => {
+    setNewMessage(event.target.value);
+  };
+
   return (
-    <div>
-      <h1>Message from smart contract:</h1>
-      <p>{message}</p>
+    <div className="Welcome">
+      <h1>Welcome to the Welcome Contract!</h1>
+      <p><i className="font-bold text-green text-3xl">Current Message: </i>{message}</p>
+      <button onClick={fetchMessage}>Fetch Message</button>
+      <br />
+      <input type="text" value={newMessage} onChange={handleInputChange} />
+      <button onClick={handleSetMessage}>Set Message</button>
     </div>
   );
-};
+}
 
 export default Welcome;
