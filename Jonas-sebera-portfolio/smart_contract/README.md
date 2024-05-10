@@ -25,7 +25,7 @@ npx hardhat help
 `To install the dependecies to be used throughout this project,  run,`  
 
 ```sh
-npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle ethereum-waffle chai @nomiclabs/hardhat-ethereum ethers@5.7.2
+npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle ethereum-waffle chai @nomiclabs/hardhat-ethereum ethers@5.7.2 @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle
 ```
 
 ## `Updated dependency list`
