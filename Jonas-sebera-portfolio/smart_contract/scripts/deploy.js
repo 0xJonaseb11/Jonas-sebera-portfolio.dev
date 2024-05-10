@@ -3,14 +3,12 @@ const main = async () => {
   // const accounts = await hre.ethers.provider.listAccounts();
   // console.log(accounts);
 
-
-
   const Welcome = await ethers.getContractFactory("Welcome");
-  const welcome = Welcome.deploy();
+  const welcome = await Welcome.deploy();
 
   console.log("Deploying Welcome contract.....");
 
-  await welcome.deployed();
+  // await welcome.deployed();
 
   console.log("Welcome contract deployed to address: ", welcome.address);
 
