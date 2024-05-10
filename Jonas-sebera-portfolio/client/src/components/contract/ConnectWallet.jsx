@@ -3,6 +3,7 @@ import Web3 from "web3";
 import WelcomeContract from "./Welcome.json";
 
 function Welcome() {
+  // eslint-disable-next-line no-unused-vars
   const [web3, setWeb3] = useState(null);
   const [contract, setContract] = useState(null);
   const [message, setMessage] = useState("");
@@ -32,6 +33,8 @@ function Welcome() {
         }
       } else {
         console.error("MetaMask not detected.");
+        window.alert("Non-ethereum browser detected.. Consider installing Metamask Wallet!!")
+
       }
     };
 
@@ -64,9 +67,9 @@ function Welcome() {
 
   return (
     <div className="Welcome">
-      <h1>Welcome to the Welcome Contract!</h1>
-      <p><i className="font-bold text-green text-3xl">Current Message: </i>{message}</p>
-      <button onClick={fetchMessage}>Fetch Message</button>
+      <h1>You are highly welcome to my portfolio website</h1>
+      <p><i className="flex flex-col font-bold text-green text-3xl p-2">Current Message: </i>{message}</p>
+      <button className="flex flex-col text-white" onClick={fetchMessage}>Fetch Message</button>
       <br />
       <input type="text" value={newMessage} onChange={handleInputChange} />
       <button onClick={handleSetMessage}>Set Message</button>
