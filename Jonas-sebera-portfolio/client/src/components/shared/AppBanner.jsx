@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 // import { FiArrowRight } from 'react-icons/fi';
 import { FiEye } from "react-icons/fi";
 
-import Welcome from "../contract/ConnectWallet";
+// import Welcome from "../contract/ConnectWallet";
 
 const AppBanner = () => {
   return (
@@ -113,7 +113,7 @@ const AppBanner = () => {
           loop
           muted
         ></video>
-        <Welcome />
+        {/* <Welcome /> */}
       </motion.div>
     </motion.section>
   );
