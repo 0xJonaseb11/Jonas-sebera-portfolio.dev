@@ -67,12 +67,12 @@ function Welcome() {
 
   return (
     <div className="Welcome">
-      <h1>You are highly welcome to my portfolio website</h1>
+      {/* <h1>You are highly welcome to my portfolio website</h1>
       <p><i className="flex flex-col font-bold text-green text-3xl p-2">Current Message: </i>{message}</p>
       <button className="flex flex-col text-white" onClick={fetchMessage}>Fetch Message</button>
       <br />
       <input type="text" value={newMessage} onChange={handleInputChange} />
-      <button onClick={handleSetMessage}>Set Message</button>
+      <button onClick={handleSetMessage}>Set Message</button> */}
     </div>
   );
 }
