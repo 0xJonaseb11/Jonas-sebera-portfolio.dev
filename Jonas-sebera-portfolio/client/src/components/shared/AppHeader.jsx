@@ -168,9 +168,9 @@ const AppHeader = () => {
           <Link
             to="/about"
             className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2"
-            aria-label="About Me"
+            aria-label="about me"
           >
-            About Me
+            about me
           </Link>
           <Link
             to="/resume"
