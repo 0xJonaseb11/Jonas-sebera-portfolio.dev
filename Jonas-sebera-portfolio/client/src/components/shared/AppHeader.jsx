@@ -127,9 +127,9 @@ const AppHeader = () => {
           <Link
             to="/about"
             className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
-            aria-label="About Me"
+            aria-label="about me"
           >
-            About Me
+            about me
           </Link>
           <Link
             to="/resume"
@@ -163,7 +163,7 @@ const AppHeader = () => {
             className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999]   hover:text-[#9999] sm:mx-4 mb-2 sm:py-2 font-light"
             aria-label="Projects"
           >
-            Projects
+            projects
           </Link>
           <Link
             to="/about"
@@ -175,16 +175,16 @@ const AppHeader = () => {
           <Link
             to="/resume"
             className="block text-left text-lg text-[#999] dark:text-[#999] dark:hover:text-[#9999] hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0"
-            aria-label="Resume"
+            aria-label="resume"
           >
-            Resume
+            resume
           </Link>
           <Link
             to="/contact"
             className="block text-left text-[#999] text-lg dark:text-[#999] hover:text-[#9999] dark:hover:text-[#9999]  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0"
             aria-label="Contact"
           >
-            Contact
+            contact
           </Link>
         </div>
 
