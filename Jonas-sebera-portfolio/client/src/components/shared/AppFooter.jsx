@@ -44,7 +44,9 @@ const CopyAddressButton = ({ walletAddress }) => {
   );
 };
 
-const WalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
+const EthereumWalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
+const SolanaWalletAddress  = `WAIGQ3BIQEBsdkfvbdfkvKABQ3BEKBKKZBZIABEJ`;
+const TronWalletAddress = `ASGKAEJRGJKVVKsdfsdJGRBEANGAKJBJAKEAEKGN`;
 
 const socialLinks = [
   {
@@ -206,13 +208,32 @@ const AppFooter = () => {
           </p>
           <div className="w-full md:w-9/12 xl:w-2/3 mx-auto mt-6">
             <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">
-              My wallet address:
+              Ethereum
             </p>
             <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
               <CopyAddressButton
-                walletAddress={WalletAddress}
+                walletAddress={EthereumWalletAddress}
                 //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
               />
+              </div>
+               <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">
+              Solana
+            </p>
+            <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
+              <CopyAddressButton
+                walletAddress={SolanaWalletAddress}
+                //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
+              />
+              </div>
+               <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">
+              Tron
+            </p>
+            <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
+              <CopyAddressButton
+                walletAddress={TronWalletAddress}
+                //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
+              />
+              
             </div>
           </div>
         </div>
