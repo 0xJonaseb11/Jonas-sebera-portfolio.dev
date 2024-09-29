@@ -45,7 +45,7 @@ const CopyAddressButton = ({ walletAddress }) => {
 };
 
 const EthereumWalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
-const SolanaWalletAddress  = `WAIGQ3BIQEBsdkfvbdfkvKABQ3BEKBKKZBZIABEJ`;
+const SolanaWalletAddress  = `WAIGQ3BIVQEBsdkfvbdfkvKABQ3BEKBKKZBZIABEJ`;
 const TronWalletAddress = `ASGKAEJRGJKVVKsdfsdJGRBEANGAKJBJAKEAEKGN`;
 
 const socialLinks = [
