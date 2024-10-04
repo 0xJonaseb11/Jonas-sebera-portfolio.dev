@@ -5,7 +5,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import IconWeb from "../../images/Doings/icon-dev.svg";
 import IconDesign from "../../images/Doings/icon-design.svg";
 import Web3Icon from "../../images/Doings/web3Icon.png";
-import Solidity from "../../images/Doings/Solidity.png";
+import Solidity from "../../images/Doings/solidity.png";
 // import solidity from "../../images/Doings/solidity.png";
 import blockchain from "../../images/Doings/blockchain.png";
 import database from "../../images/Doings/database.jpeg";

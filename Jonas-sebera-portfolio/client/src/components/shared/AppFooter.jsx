@@ -44,10 +44,10 @@ const CopyAddressButton = ({ walletAddress }) => {
   );
 };
 
-const EthereumWalletAddress = `0xcfdEf8165d722DC56a1FD06923de261B5B9d8626`;
-const SolanaWalletAddress  = `WAIGQ3BIVQEBsdkfvbdfkvKABQ3BEKBKKZBZIABEJ`;
-const TronWalletAddress = `ASGKAEJRGJKVVKsdfsdJGRBEANGAKJBJAKEAEKGN`;
-
+const EthereumWalletAddress = `0xef2fC3CdeBaE8c60F07da3c15A486bdA4769c4f0`;
+const SolanaWalletAddress  = `99fyA7UHjipBCyXKGBdSYTB8B6Jv9iTeL9MAeT1Uokq8`;
+const BitcoinWalletAddress = `bc1pr2ep3kke5hzfmv229tacf8d2w9g828zagu26j5rd0uduagzaa2rqnt9l4r`;
+const TronWalletAddress = `TC9b2eTy4DDPyDypevcorv7hTqANZ7451T`
 const socialLinks = [
   {
     id: 1,
@@ -235,6 +235,15 @@ const AppFooter = () => {
               />
               
             </div>
+            <p className="mb-2 md:mb-4 text-center text-[#999] font-semibold font-sans text-base xsm:text-base 2xsm:text-base 3xsm:base">
+              BTC
+            </p>
+            <div className="w-full dark:bg-gray-500 rounded-full bg-gray-200 p-4 md:p-3 2sm:p-4 xsm:p-4 text-center items-center text-gray-800">
+              <CopyAddressButton
+                walletAddress={BitcoinWalletAddress}
+                //className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl break-all max-w-full"
+              />
+              </div>
           </div>
         </div>
       </div>
