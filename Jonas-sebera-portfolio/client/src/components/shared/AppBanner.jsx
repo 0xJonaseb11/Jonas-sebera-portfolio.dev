@@ -71,10 +71,11 @@ const AppBanner = () => {
           className="flex justify-center lg:block 3xsm:block 3xsm:mx-6"
         >
           <a
-            // download="Jonas-Sebera-Resume.pdf"
-            href="https://www.jobseeker.com/d/19npe1LZ61VC8CiiZd5elF/view"
+            href="../files/Jonas-Sebera-Resume.pdf"
+            download="Jonas-Sebera-Resume.pdf"
+            // href="https://www.jobseeker.com/d/19npe1LZ61VC8CiiZd5elF/view"
             className=" flex flex-col font-general-medium justify-center items-center text-center w-full 2sm:p-4 2sm:text-2xl mt-12 mb-6 sm:mb-3 text-lg py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 hover:bg-indigo-600 text-gray-100 hover:text-white duration-500 p-2 4xsm:-ml-2 -ml-1.5"
-            aria-label="View quick resume"
+            aria-label="Download quick resume"
             target="_blank"
             rel="noreferrer"
             // onclick={(e) => {
@@ -82,9 +83,9 @@ const AppBanner = () => {
             //   window.alert("Resume is currently unavailable!!🙏 Mind viewing full resume instead!!🫡");
             // }}
           >
-            <FiEye /*FiArrowDownCircle*/ className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100 items-center text-center"></FiEye/*FiArrowDownCircle*/>
+            <FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100 items-center text-center"/>
             <span className="text-sm sm:text-lg font-general-medium duration-100 mb-0">
-              View Quick Resume
+              Download Quick Resume
             </span>
           </a>
 
