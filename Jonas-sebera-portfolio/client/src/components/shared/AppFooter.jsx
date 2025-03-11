@@ -69,7 +69,7 @@ const socialLinks = [
   {
     id: 3,
     icon: <FiLinkedin className="w-7 rounded-full" />,
-    url: "https://www.linkedin.com/in/sebera-jonas/",
+    url: "https://www.linkedin.com/in/0xJonaseb11",
   },
   {
     id: 4,
