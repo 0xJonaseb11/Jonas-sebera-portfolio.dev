@@ -74,7 +74,7 @@ export const StoneProofLabs = {
       {
         id: 3,
         title: "Website",
-        details: "https://stone-proof-ethv2.vercel.app/",
+        details: "Available Upon Request",
       },
       {
         id: 4,
@@ -95,7 +95,7 @@ export const StoneProofLabs = {
       {
         id: 7,
         title: "Demo Video",
-        details: "https://youtu.be/P5uDaDjH4xE",
+        details: "Available upon request",
       },
       {
         id: 8,
